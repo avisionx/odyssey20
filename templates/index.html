@@ -1,58 +1,96 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="simpleslide100">
-    <div class="simpleslide100-item bg-img1" style="background-image: url('/static/images/BG.png');"></div>
-</div>
 
-<div class="size1 overlay1">
-    <!--  -->
-    <div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-        <h3 class="l1-txt1 txt-center p-b-25">
-            Coming Soon
-        </h3>
+{% include "navslider.html" %}
 
-        <p class="m2-txt1 txt-center p-b-48">
-            Our website is under construction, follow us for update now!
-        </p>
-
-        <div class="flex-w flex-c-m cd100 p-b-33">
-            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 days">35</span>
-                <span class="s2-txt1">Days</span>
+<div class="container-fluid full-page">
+    <div class="row section-1" id="home">
+        <div class="col text-center justify-content-center align-items-center d-flex flex-column">
+            <div class="social-icons rounded d-none d-lg-block">
+                <div class="w-100 p-1 mr-2 my-0 mt-1"><a href="https://www.facebook.com/odyssey.iiitd/" target="_blank" class="no-decoration small text-white"><img src="/static/img/fb.png" class="ml-2" width="50px" alt=""></a></div>
+                <div class="w-100 p-1 mr-2 my-0 mb-1"><a href="https://www.instagram.com/iiitdodyssey/" target="_blank" class="no-decoration small text-white"><img src="/static/img/IG.png" class="ml-2" width="50px" alt=""></a></div>
             </div>
-
-            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 hours">17</span>
-                <span class="s2-txt1">Hours</span>
+            <img src="/static/images/logo.png" class="img-fluid homelogo">
+            <img src="/static/images/retro.png" class="retrotitle" alt="">
+            <div class="recreateContainer">
+                <img src="/static/images/recreate.png" class="img-fluid recreate" alt="">
             </div>
-
-            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 minutes">50</span>
-                <span class="s2-txt1">Minutes</span>
-            </div>
-
-            <div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
-                <span class="l2-txt1 p-b-9 seconds">39</span>
-                <span class="s2-txt1">Seconds</span>
+            <img src="/static/images/gutter12.png" class="gutter12 d-none d-lg-block" alt="">
+            <img src="/static/images/gutter12m.png" class="gutter12 d-block d-lg-none" alt="">
+            <img src="/static/images/odyssey.png" style="z-index: 2" class="img-fluid hometitle py-3 px-4" alt="">
+            <img src="/static/images/date1.png" style="z-index: 2" class="img-fluid dateimage py-3 px-4" alt="">
+            <img src="/static/images/mouse.svg" width="30px" class="d-none d-lg-block" style="position: absolute; bottom: 30px; cursor: pointer; z-index: 10;" onclick="window.location.href='/#about'" alt="">
+        </div>
+    </div>
+    <div class="px-2 pt-3 pt-md-5 row section-2" data-emit-events id="about">
+        <div class="col text-center justify-content-center align-items-center d-flex flex-column">
+            <div class="row mb-5 pb-5">
+                <div class="col-12 col-md-4 px-0 px-md-3 justify-content-center align-items-center d-flex flex-column">
+                    <img src="/static/images/about.png" class="img-fluid w-50" alt="">
+                    <div class="mt-3" data-toggle="modal" data-target=".video-modal-lg">
+                        <img src="/static/images/yt-placeholder.png" class="yt-image" style="cursor: pointer" width="100%" class="imageForVideo" alt="s">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 light stretch text-white text-left aboutText justify-content-end align-items-center d-flex flex-column">
+                    <p class="mb-3 mt-3 mt-md-0">IIIT Delhi's Odyssey celebrates the essence and beauty of culture and of it's arts. It celebrates the Actor, the Dancer, the Musician, the Writer and the Designer, with over 45 events and a footfall of 25,000+. Having staged popular performances like Prateek Kuhad, Gajendra Verma, Hardy Sandhu, The Local Train, Euphoria, Zakir Khan and Bhuvan Bam, Odyssey always reaches out to the youth with it's inspiring, ever growing attitude. </p>
+                    <p class="mb-3 d-none d-md-block">Feel the adrenaline rush, the pumping of you blood as We bring to you yet another spectacular edition of the 2 day event. Come participate, experience and feel the excitement as you watch the star with close proximity or see the different competitions. Come and make numerous and unforgettable memories and at Odyssey.</p>
+                    <p class="mb-3">And this year as we together walk down the campus, let's all add to the symphony of memories we've built here. Come join us in our pursuit of cherishing an interlude of eras.</p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="row section-3" id="events">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="soon bold text-white">Coming Soon!</p>
+        </div>
+    </div>
+    <div class="row section-4" id="nirvana">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="soon bold text-white">Coming Soon!</p>            
+        </div>
+    </div>
+    <div class="row section-5" id="sponsors">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="soon bold text-white">Coming Soon!</p>
+        </div>
+    </div>
+    <div class="row section-6" id="team">
+        <div class="col d-flex justify-content-center align-items-center">
+            <p class="soon bold text-white">Coming Soon!</p>            
+        </div>
+    </div>
+</div>
+{% include "footer.html" %}
 
-        <form class="w-full flex-w flex-c-m validate-form">
-
-            <div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-                <input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
-                <span class="focus-input100"></span>
+<div class="modal fade video-modal-lg" id="videoModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close no-btn-shadow" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>        
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen="" allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>             
             </div>
-            
-            
-            <button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
-                Subscribe
-            </button>
-        </form>
+        </div>
     </div>
 </div>
 {% endblock %}
 
 {% block scripts %}
+<script type="text/javascript">
+    
+    $(document).ready(function() {
+        var videoSrc = "https://www.youtube.com/embed/vwAFdVzoagY";
+        $('#videoModal').on('shown.bs.modal', function (e) {
+            $("#video").attr('src',videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+        });
+        $('#videoModal').on('hide.bs.modal', function (e) {
+            $("#video").attr('src',videoSrc); 
+        });
+    });
+
+</script>
 {% endblock %}

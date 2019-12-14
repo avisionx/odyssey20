@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -7,13 +7,13 @@
         <meta property="og:title" content="Odyssey'20 | The Annual Cultural Fest of IIITD" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:description" content="Odyssey'20 | The Annual Cultural Fest of IIITD" />
-        <link rel="canonical" href="http://odyssey.iiitd.edu.in/" />
-        <meta property="og:url" content="http://odyssey.iiitd.edu.in/" />
+        <link rel="canonical" href="https://odyssey.iiitd.edu.in/" />
+        <meta property="og:url" content="https://odyssey.iiitd.edu.in/" />
         <meta property="og:site_name" content="Odyssey'20 | The Annual Cultural Fest of IIITD" />
         <meta name="description" content="Odyssey'20 | The Annual Cultural Fest of IIITD" />
-        <link rel="icon" href="/static/images/logo-final.png" type="image/x-icon"/>
+        <link rel="icon" href="/static/images/favicon.ico" type="image/x-icon"/>
         <script type="application/ld+json">
-            {"url":"http://odyssey.iiitd.edu.in/","headline":"Odyssey'20 | The Annual Cultural Fest of IIITD","name":"Odyssey'20 | The Annual Cultural Fest of IIITD","description":"Odyssey'20 | The Annual Cultural Fest of IIITD","@type":"WebSite","@context":"https://schema.org"}
+            {"url":"https://odyssey.iiitd.edu.in/","headline":"Odyssey'20 | The Annual Cultural Fest of IIITD","name":"Odyssey'20 | The Annual Cultural Fest of IIITD","description":"Odyssey'20 | The Annual Cultural Fest of IIITD","@type":"WebSite","@context":"https://schema.org"}
         </script>
         <script>
             if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
@@ -26,51 +26,59 @@
                 ga('send', 'pageview');
             }
         </script>
-        <link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
-        <link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
-	    <link rel="stylesheet" type="text/css" href="/static/css/util.css">
-        <link rel="stylesheet" href="/static/css/main.css">
         <title>Odyssey'20 | The Annual Cultural Fest of IIITD</title>
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/css/main.css">
     </head>
+    
     <body>
         
         {% block content %}
+
         {% endblock %}
-          
-        <script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
-        <script src="/static/vendor/bootstrap/js/popper.js"></script>
-        <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="/static/vendor/select2/select2.min.js"></script>
-        <script src="/static/vendor/countdowntime/moment.min.js"></script>
-        <script src="/static/vendor/countdowntime/moment-timezone.min.js"></script>
-        <script src="/static/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-        <script src="/static/vendor/countdowntime/countdowntime.js"></script>
-        
-        <script>
-            $('.cd100').countdown100({
-                /*Set Endtime here*/
-                /*Endtime must be > current time*/
-                endtimeYear: 2019,
-                endtimeMonth: 12,
-                endtimeDate: 11,
-                endtimeHours: 0,
-                endtimeMinutes: 0,
-                endtimeSeconds: 0,
-                timeZone: "Asia/Kathmandu" 
-                // ex:  timeZone: "America/New_York"
-                //go to " http://momentjs.com/timezone/ " to get timezone
-            });
-        </script>
-        <script src="/static/vendor/tilt/tilt.jquery.min.js"></script>
-        <script >
-            $('.js-tilt').tilt({
-                scale: 1.1
-            })
-        </script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="/static/js/skrollr.min.js"></script>
         <script src="/static/js/main.js"></script>
+
+        <script>
+            var s = skrollr.init({
+	            keyframe: function(element, name, direction) {
+                    
+                    var dic = {
+                        data3p: "0",
+                        data99p: "1",
+                        data199p: "2",
+                        data224p: "3",
+                        data248p: "4",
+                        data272p: "5"
+                    }
+                    $($(".activeTab")[0]).removeClass("activeTab")
+                    $($($(".vertical-nav")[0]).children()[dic[name]]).addClass("activeTab")
+                }
+            });
+            if(s.isMobile()){
+                s.destroy();
+            }
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+
+            function openSideNav() {
+                $("#sideNav").css("transform", "translateX(0%)");
+                $('body').css('overflow', 'hidden');
+            }
+            function closeSideNav() {
+                $("#sideNav").css("transform", "translateX(100%)");
+                $('body').css('overflow', 'auto');
+            }
+        </script>
+
         {% block scripts %}
         {% endblock %}
+
     </body>
 </html>

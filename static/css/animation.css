@@ -1,0 +1,73 @@
+@keyframes glitch
+{
+	0%
+	{
+		transform: translate(0, 0);
+		filter: hue-rotate(0deg);
+	}
+	10%
+	{
+		transform: translate(2px, 0);
+	}
+	20%
+	{
+		transform: translate(-2px, 0);
+	}
+	30%
+	{
+		transform: translate(5px, 0);
+	}
+	40%
+	{
+		transform: translate(-2px, 0);
+	}
+	50%
+	{
+		transform: translate(-7px, 0);        
+	}
+	60%
+	{
+		transform: translate(-10px, 0); 
+	}
+	70%
+	{
+		transform: translate(0, -7px); 
+	}
+	80%
+	{
+		transform: translate(-11px, -7px); 
+	}
+	81%
+	{
+		transform: translate(0px, 0px); 
+	}
+	100%
+	{
+		transform: translate(0px, 0px); 
+		filter: hue-rotate(360deg);
+	}
+}
+
+@keyframes glitchVap
+{
+	0%
+	{
+		opacity: 0;
+	}
+	20%
+	{
+		opacity: 0;        
+	}
+	30%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1
+	}
+	100%
+	{
+		opacity: 1
+	}
+}

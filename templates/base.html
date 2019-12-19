@@ -29,11 +29,16 @@
         <title>Odyssey'20 | The Annual Cultural Fest of IIITD</title>
         <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="/static/css/main.css">
+        <link rel="stylesheet" href="/static/css/main2.css">
     </head>
     
-    <body>
+    <body class="no-scroll">
         
+        <div class="preloader text-white">
+            <img src="/static/images/logo.png" class="img-fluid preloadLogo preloadLogoBottom">
+            <img src="/static/images/logo.png" class="img-fluid preloadLogo preloadLogoUpper">
+        </div>
+
         {% block content %}
 
         {% endblock %}
@@ -45,6 +50,16 @@
         <script src="/static/js/main.js"></script>
 
         <script>
+            
+            var mobileUI = false;
+            
+            $(window).on('load', function() {
+                $(".preloader").delay(1000).fadeOut("slow", function(){
+                    $('body').css({'overflow-y':'auto', 'height':'auto', 'position':'relative'});
+                    loadAnimation();
+                });
+            })
+
             var s = skrollr.init({
 	            keyframe: function(element, name, direction) {
                     
@@ -52,9 +67,8 @@
                         data3p: "0",
                         data99p: "1",
                         data199p: "2",
-                        data224p: "3",
-                        data248p: "4",
-                        data272p: "5"
+                        data299p: "3",
+                        data100End: "4"
                     }
                     $($(".activeTab")[0]).removeClass("activeTab")
                     $($($(".vertical-nav")[0]).children()[dic[name]]).addClass("activeTab")
@@ -62,6 +76,7 @@
             });
             if(s.isMobile()){
                 s.destroy();
+                mobileUI = true;
             }
             $(function () {
                 $('[data-toggle="tooltip"]').tooltip()

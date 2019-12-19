@@ -7,57 +7,124 @@
 <div class="container-fluid full-page">
     <div class="row section-1" id="home">
         <div class="col text-center justify-content-center align-items-center d-flex flex-column">
-            <div class="social-icons rounded d-none d-lg-block">
+            <div class="social-icons no-show fast rounded d-none d-lg-block">
                 <div class="w-100 p-1 mr-2 my-0 mt-1"><a href="https://www.facebook.com/odyssey.iiitd/" target="_blank" class="no-decoration small text-white"><img src="/static/img/fb.png" class="ml-2" width="50px" alt=""></a></div>
                 <div class="w-100 p-1 mr-2 my-0 mb-1"><a href="https://www.instagram.com/iiitdodyssey/" target="_blank" class="no-decoration small text-white"><img src="/static/img/IG.png" class="ml-2" width="50px" alt=""></a></div>
             </div>
-            <img src="/static/images/logo.png" class="img-fluid homelogo">
-            <img src="/static/images/retro.png" class="retrotitle" alt="">
-            <div class="recreateContainer">
+            <a href="/#home" style="z-index: 999"><img src="/static/images/logo.png" class="img-fluid homelogo no-show faster"></a>
+            <img src="/static/images/retro.png" class="retrotitle no-show fast" alt="">
+            <div class="recreateContainer no-show fast">
                 <img src="/static/images/recreate.png" class="img-fluid recreate" alt="">
             </div>
-            <img src="/static/images/gutter12.png" class="gutter12 d-none d-lg-block" alt="">
-            <img src="/static/images/gutter12m.png" class="gutter12 d-block d-lg-none" alt="">
-            <img src="/static/images/odyssey.png" style="z-index: 2" class="img-fluid hometitle py-3 px-4" alt="">
-            <img src="/static/images/date2.png" style="z-index: 2" class="img-fluid dateimage py-3 px-4" alt="">
-            <img src="/static/images/mouse.svg" width="30px" class="d-none d-lg-block" style="position: absolute; bottom: 30px; cursor: pointer; z-index: 10;" onclick="window.location.href='/#about'" alt="">
+            <img src="/static/images/gutter12.png" class="gutter12 no-show faster d-none d-lg-block" alt="">
+            <img src="/static/images/gutter12m.png" class="gutter12m gutter12 no-show faster d-block d-lg-none" alt="">
+            <img src="/static/images/odyssey.png" style="z-index: 2" class="img-fluid hometitle no-show py-3 px-4" alt="">
+            <img src="/static/images/date2.png" style="z-index: 2" class="img-fluid dateimage no-show py-3 px-4" alt="">
+            <img src="/static/images/mouse.svg" width="30px" class="godown no-show fast d-none d-lg-block" style="position: absolute; bottom: 30px; cursor: pointer; z-index: 10;" onclick="window.location.href='/#about'" alt="">
         </div>
     </div>
     <div class="px-2 pt-3 pt-md-5 row section-2" data-emit-events id="about">
         <div class="col text-center justify-content-center align-items-center d-flex flex-column">
             <div class="row mb-5 pb-5">
-                <div class="col-12 col-md-4 px-0 px-md-3 justify-content-center align-items-center d-flex flex-column">
-                    <img src="/static/images/about.png" class="img-fluid w-50" alt="">
+                <div class="col-12 col-md-4 px-0 px-md-3 ml-lg-3 justify-content-center align-items-center d-flex flex-column tv-box no-show faster">
+                    <img src="/static/images/about.png" class="img-fluid w-50 mt-3" alt="">
                     <div class="mt-3" data-toggle="modal" data-target=".video-modal-lg">
                         <img src="/static/images/yt-placeholder.png" class="yt-image" style="cursor: pointer" width="100%" class="imageForVideo" alt="s">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 light stretch text-white text-left aboutText justify-content-end align-items-center d-flex flex-column">
-                    <p class="mb-3 mt-3 mt-md-0">IIIT Delhi's Odyssey celebrates the essence and beauty of culture and of it's arts. It celebrates the Actor, the Dancer, the Musician, the Writer and the Designer, with over 45 events and a footfall of 25,000+. Having staged popular performances like Prateek Kuhad, Gajendra Verma, Hardy Sandhu, The Local Train, Euphoria, Zakir Khan and Bhuvan Bam, Odyssey always reaches out to the youth with it's inspiring, ever growing attitude. </p>
-                    <p class="mb-3 d-none d-md-block">Feel the adrenaline rush, the pumping of you blood as We bring to you yet another spectacular edition of the 2 day event. Come participate, experience and feel the excitement as you watch the star with close proximity or see the different competitions. Come and make numerous and unforgettable memories and at Odyssey.</p>
-                    <p class="mb-3">And this year as we together walk down the campus, let's all add to the symphony of memories we've built here. Come join us in our pursuit of cherishing an interlude of eras.</p>
+                    <p class="mb-3 mt-3 mt-md-0 aboutText1 no-show faster">IIIT Delhi's Odyssey celebrates the essence and beauty of culture and of it's arts. It celebrates the Actor, the Dancer, the Musician, the Writer and the Designer, with over 45 events and a footfall of 25,000+. Having staged popular performances like Prateek Kuhad, Gajendra Verma, Hardy Sandhu, The Local Train, Euphoria, Zakir Khan and Bhuvan Bam, Odyssey always reaches out to the youth with it's inspiring, ever growing attitude. </p>
+                    <p class="mb-3 d-none d-md-block aboutText2 no-show fast">Feel the adrenaline rush, the pumping of you blood as We bring to you yet another spectacular edition of the 2 day event. Come participate, experience and feel the excitement as you watch the star with close proximity or see the different competitions. Come and make numerous and unforgettable memories and at Odyssey.</p>
+                    <p class="mb-3 aboutText3 no-show">And this year as we together walk down the campus, let's all add to the symphony of memories we've built here. Come join us in our pursuit of cherishing an interlude of eras.</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="row section-3" id="events">
-        <div class="col d-flex justify-content-center align-items-center">
-            <p class="soon bold text-white">Coming Soon!</p>
+        <div class="topbar">
+            <div class="container-fluid px-lg-5 text-yellow justify-content-center justify-content-lg-start align-items-center d-flex h-100">
+                <img src="/static/img/hourglass.svg" class="img-fluid d-none d-lg-block hrglass no-show fast" style="height: 60%" alt="">
+                <p class="m-0 pl-3 stretch d-none d-lg-block no-show fast" id="datetime">15:23:41</p>
+                <p class="m-0 stretch computer no-show faster" style="position: absolute; left: 50%; transform: translateX(-50%)">My Computer</p>
+            </div>
+        </div>
+        <div class="monitor text-yellow">
+            <div class="popup col-10 col-lg-5 main-popup no-show faster px-2 pb-2">
+                <div class="popup-buttons my-1" style="position: relative">
+                    <img src="/static/img/close.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/square.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/minus.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0"><span class="d-none d-md-block">Awesome Events</span><span class="d-md-none">Events</span></p>
+                </div>
+                <div class="bg-popmain p-3">
+                    <div class="row">
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Theatre </p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Dance</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Fun</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Photography</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Arts</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Gaming</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Lifestyle</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup col-10 col-lg-3 secondary-popup no-show faster px-2 pb-2">
+                <div class="popup-buttons my-1" style="position: relative">
+                    <img src="/static/img/closeb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/squareb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/minusb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0; color: white">Nirvana Night</p>
+                </div>
+                <div class="bg-popsecondary text-white p-3">
+                    <p class="m-0 text-left h3 pt-2 pb-0 stretch">Coming Soon!</p>
+                    <p class="m-0 text-left stretch px-1 pb-4">task failed successfully.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="row section-4" id="nirvana">
+    <div class="row section-4" id="sponsors">
         <div class="col d-flex justify-content-center align-items-center">
             <p class="soon bold text-white">Coming Soon!</p>            
         </div>
     </div>
-    <div class="row section-5" id="sponsors">
+    <div class="row section-5" id="team">
         <div class="col d-flex justify-content-center align-items-center">
             <p class="soon bold text-white">Coming Soon!</p>
-        </div>
-    </div>
-    <div class="row section-6" id="team">
-        <div class="col d-flex justify-content-center align-items-center">
-            <p class="soon bold text-white">Coming Soon!</p>            
         </div>
     </div>
 </div>
@@ -84,13 +151,137 @@
     
     $(document).ready(function() {
         var videoSrc = "https://www.youtube.com/embed/vwAFdVzoagY";
+        var animated2 = false;
+        var animated3 = false;
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src',videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
         });
         $('#videoModal').on('hide.bs.modal', function (e) {
             $("#video").attr('src',videoSrc); 
         });
+
+        if(!mobileUI) {
+
+            timeNow();
+
+        }
+
+        $.fn.isInViewport = function() {
+            var elementTop = $(this).offset().top;
+            var elementBottom = elementTop + $(this).outerHeight();            
+            var viewportTop = $(window).scrollTop() + 300;
+            var viewportBottom = viewportTop + $(window).height();
+            return elementTop <= viewportTop && elementBottom >= viewportTop;
+        };
+
+        $(window).on('resize scroll', function() {
+            if(!animated2 && $('#about').isInViewport()) {
+                loadAbout();
+                animated2 = true;
+            }
+            if(!animated3 && $('#events').isInViewport()) {
+                loadEvent();
+                animated3 = true;
+            }
+        })
+
+        function timeNow() {
+            var d = new Date();
+            var h = (d.getHours()<10?'0':'') + d.getHours();
+            var m = (d.getMinutes()<10?'0':'') + d.getMinutes();
+            var s = (d.getSeconds()<10?'0':'') + d.getSeconds();
+            document.getElementById('datetime').innerHTML = h + ':' + m + ':' + s;
+            var t = setTimeout(timeNow, 500);
+        }
+
     });
+
+    function loadAbout() {
+        animateCSS('.tv-box', 'fadeIn', function() {
+            animateCSS('.aboutText1', 'fadeInLeft')  
+            animateCSS('.aboutText2', 'fadeInLeft')
+            animateCSS('.aboutText3', 'fadeInLeft')
+        })
+    }
+
+    function loadEvent() {
+        animateCSS('.hrglass', 'rotateIn')  
+        animateCSS('#datetime', 'fadeIn')  
+        animateCSS('.computer', 'fadeIn', function(){
+            animateCSS('.main-popup', 'zoomIn', function(){
+                animateCSS('.secondary-popup', 'zoomIn')
+            })
+        })  
+    }
+
+    function loadAnimation() {
+
+        if(mobileUI) {
+            animateCSS('.homelogo', 'fadeInLeft');
+            animateCSS('.navbar', 'fadeInRight')
+            animateCSS('.gutter12m', 'fadeInUp', function() {
+                $('.hometitle').removeClass("no-show");
+                $('.dateimage').removeClass("no-show");
+                animateCSS('.retrotitle', 'zoomIn');
+                animateCSS('.recreateContainer', 'zoomIn', function(){
+                    $('.recreate').css('animation', 'glitch 0.3s linear')
+                    $('.recreate').css('animation-iteration-count', '4')
+                    
+                    $('.recreateContainer').css('animation', 'glitchVap 0.3s linear')
+                    $('.recreateContainer').css('animation-iteration-count', '4')
+                    takeToTab(window.location.hash);
+                    
+                });
+            })
+        }else{
+            animateCSS('.homelogo', 'fadeInRight')
+            animateCSS('nav', 'fadeInRightBig', function() {
+                animateCSS('.gutter12', 'fadeInUp', function() {
+                    animateCSS('.hometitle', 'fadeInUp');
+                    animateCSS('.dateimage', 'fadeInUp', function(){
+                        animateCSS('.godown', 'fadeInUp');
+                    });
+                    animateCSS('.retrotitle', 'zoomIn');
+                    animateCSS('.recreateContainer', 'zoomIn', function(){
+                        $('.recreate').css('animation', 'glitch 0.3s linear')
+                        $('.recreate').css('animation-iteration-count', '4')
+                        
+                        $('.recreateContainer').css('animation', 'glitchVap 0.3s linear')
+                        $('.recreateContainer').css('animation-iteration-count', '4')
+                        takeToTab(window.location.hash);
+                    });
+                })
+            })
+        }
+
+        animateCSS('.social-icons', 'fadeInLeft')
+
+
+        
+    }
+
+    function takeToTab(tabName) {
+        if(tabName != "") {
+            var elmnt = document.getElementById(tabName.split("#")[1]);
+            elmnt.scrollIntoView();
+        }
+    }
+
+    function animateCSS(element, animationName, callback) {
+        
+        const node = document.querySelector(element)
+        node.classList.add('animated', animationName)
+        node.classList.remove('no-show')
+
+        function handleAnimationEnd() {
+            node.classList.remove('animated', animationName)
+            node.removeEventListener('animationend', handleAnimationEnd)
+
+            if (typeof callback === 'function') callback()
+        }
+
+        node.addEventListener('animationend', handleAnimationEnd)
+    }
 
 </script>
 {% endblock %}

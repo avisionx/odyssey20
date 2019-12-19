@@ -48,6 +48,44 @@
 	}
 }
 
+@keyframes glitchLoader
+{
+	0%
+	{
+		transform: translate(-50%, -50%);
+		filter: hue-rotate(0deg);
+	}
+	10%
+	{
+		transform: translate(-51%, -50%);
+	}
+	20%
+	{
+		transform: translate(-49%, -50%);
+	}
+	30%
+	{
+		transform: translate(-50%, -50%);
+	}
+	40%
+	{
+		transform: translate(-48%, -50%);
+	}
+	80%
+	{
+		transform: translate(-52%, -50%); 
+	}
+	81%
+	{
+		transform: translate(-50%, -50%); 
+	}
+	100%
+	{
+		transform: translate(-50%, -50%); 
+		filter: hue-rotate(360deg);
+	}
+}
+
 @keyframes glitchVap
 {
 	0%

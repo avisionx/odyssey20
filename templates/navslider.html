@@ -1,22 +1,10 @@
-<nav class="d-none d-lg-block">
-    <!-- <div class="vertical-nav-progress" 
-        data-3p="height: 0vh;"
-        data-99p="height: 12vh;"
-        data-199p="height: 20vh;"
-        data-299p="height: 28vh;"
-        data-399p="height: 37vh;"
-        data-499p="height: 46vh;"
-        data-end="height: 50vh;"
-        data-emit-events 
-    >&nbsp;</div> -->
+<nav class="d-none d-lg-block no-show fast">
     <div class="vertical-nav-progress" 
         data-3p="height: 0vh;"
-        data-99p="height: 12vh;"
-        data-199p="height: 20vh;"
-        data-224p="height: 28vh;"
-        data-248p="height: 37vh;"
-        data-272p="height: 46vh;"
-        data-end="height: 50vh;"
+        data-99p="height: 15vh;"
+        data-199p="height: 25vh;"
+        data-299p="height: 35vh;"
+        data-100-end="height: 50vh;"
         data-emit-events 
     >&nbsp;</div>
     <div class="vertical-nav-progress">&nbsp;</div>
@@ -24,19 +12,18 @@
         <li class="activeTab"><a href="#home" data-name="Home">&nbsp;</a></li>
         <li><a href="#about" data-name="About">&nbsp;</a></li>
         <li><a href="#events" data-name="Events">&nbsp;</a></li>
-        <li><a href="#nirvana" data-name="Nirvana&nbsp;Nights">&nbsp;</a></li>
         <li><a href="#sponsors" data-name="Sponsors">&nbsp;</a></li>
         <li><a href="#team" data-name="Team">&nbsp;</a></li>
     </ul>
     </nav>
 
-    <nav class="navbar d-block d-lg-none fixed-top">
+    <nav class="navbar no-show faster d-block d-lg-none fixed-top" style="z-index: 998;">
         <div class="container-fluid px-0 mt-1">
             <button class="btn btn-link no-btn-shadow ml-auto" onclick="openSideNav()">
                 <img src="/static/img/menu.svg" height="30px" alt="">
             </button>
         </div>
-        <div class="side-nav container d-flex align-items-start justify-content-center" style="z-index: 999; overflow-x: hidden; overflow-y: auto" id="sideNav">
+        <div class="side-nav container d-flex align-items-start justify-content-center" style="z-index: 998; overflow-x: hidden; overflow-y: auto" id="sideNav">
             <div class="row mt-3 w-100">
                 <div class="col text-right px-0">
                     <button class="btn btn-link no-btn-shadow" data-tilt data-tilt-scale="1.1" onclick="closeSideNav()">
@@ -50,11 +37,10 @@
                         <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#home" class="side-nav-links stretch light">HOME</a></li>
                         <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#about" class="side-nav-links stretch light">ABOUT US</a></li>
                         <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#events" class="side-nav-links stretch light" >EVENTS</a></li>
-                        <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#nirvana" class="side-nav-links stretch light">NIRVANA NIGHTS</a></li>
                         <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#sponsors" class="side-nav-links stretch light">SPONSORS</a></li>
                         <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/#team" class="side-nav-links stretch light">TEAM</a></li>
-                        <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/schedule/" class="side-nav-links stretch disabled light" onclick="event.preventDefault();">SCHEDULE</a></li>
-                        <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="/faqs/" class="side-nav-links stretch light disabled" onclick="event.preventDefault();">FAQs</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="#" class="side-nav-links stretch disabled light" onclick="return false;">SCHEDULE</a></li>
+                        <li class="list-group-item bg-transparent border-0"><a onclick="closeSideNav()" href="#" class="side-nav-links stretch light disabled" onclick="return false;">FAQs</a></li>
                         <!-- data-toggle="tooltip" title="Registrations Open!" data-placement="right" -->
                     </ul>
                 </div>

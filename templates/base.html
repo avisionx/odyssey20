@@ -34,10 +34,10 @@
     
     <body class="no-scroll">
         
-        <div class="preloader text-white">
+        <!-- <div class="preloader text-white">
             <img src="/static/images/logo.png" class="img-fluid preloadLogo preloadLogoBottom">
             <img src="/static/images/logo.png" class="img-fluid preloadLogo preloadLogoUpper">
-        </div>
+        </div> -->
 
         {% block content %}
 
@@ -54,10 +54,10 @@
             var mobileUI = false;
             
             $(window).on('load', function() {
-                $(".preloader").delay(1000).fadeOut("slow", function(){
-                    $('body').css({'overflow-y':'auto', 'height':'auto', 'position':'relative'});
+                // $(".preloader").delay(1000).fadeOut("slow", function(){
+                //     $('body').css({'overflow-y':'auto', 'height':'auto', 'position':'relative'});
                     loadAnimation();
-                });
+                // });
             })
 
             var s = skrollr.init({

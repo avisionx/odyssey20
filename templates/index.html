@@ -56,48 +56,54 @@
                     <img src="/static/img/minus.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
                     <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0"><span class="d-none d-md-block">Awesome Events</span><span class="d-md-none">Events</span></p>
                 </div>
-                <div class="bg-popmain p-3">
+                <div class="bg-popmain p-2 p-lg-3">
                     <div class="row">
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#theater" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
-                                <p>Theatre </p>
+                                <p>Theater </p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#dance" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
                                 <p>Dance</p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#fun" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
                                 <p>Fun</p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#literary" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
-                                <p>Photography</p>
+                                <p>Literary</p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#arts" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
                                 <p>Arts</p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#gaming" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
                                 <p>Gaming</p>
                             </a>
                         </div>
                         <div class="col-4 col-lg-4 py-1 text-center" >
-                            <a href="/" class="link-yellow">
+                            <a href="/#lifestyle" class="link-yellow">
                                 <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
                                 <p>Lifestyle</p>
+                            </a>
+                        </div>
+                        <div class="col-4 col-lg-4 py-1 text-center" >
+                            <a href="/#photography" class="link-yellow">
+                                <img src="/static/img/folder.svg" class="img-fluid" width="40%" alt="">
+                                <p>Photography</p>
                             </a>
                         </div>
                     </div>
@@ -110,9 +116,22 @@
                     <img src="/static/img/minusb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
                     <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0; color: white">Nirvana Night</p>
                 </div>
-                <div class="bg-popsecondary text-white p-3">
+                <div class="bg-popsecondary text-white p-2 p-lg-3">
                     <p class="m-0 text-left h3 pt-2 pb-0 stretch">Coming Soon!</p>
                     <p class="m-0 text-left stretch px-1 pb-4">task failed successfully.</p>
+                </div>
+            </div>
+            <div class="popup top-popup px-2 pb-2 faster no-show d-none">
+                <div class="popup-buttons my-1" style="position: relative">
+                    <img src="/static/img/close.svg" width="20px" class="img-fluid bg-popmain p-1 popClose" style="cursor: pointer" onclick="closePopup()" alt="">
+                    <img src="/static/img/square.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/minus.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0" id="eventTitle"></p>
+                </div>
+                <div class="bg-popmain p-2 p-lg-3" style="overflow-y: scroll; height: 94%; overflow-x: hidden">
+                    <div class="row" id="eventList">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,6 +147,11 @@
         </div>
     </div>
 </div>
+
+<div class="rewindContainer fast no-show d-none">
+    <img src="/static/images/rewind.gif" class="h-100 w-100 img-fluid" style="opacity: 0.95" alt="">
+</div>
+
 {% include "footer.html" %}
 
 <div class="modal fade video-modal-lg" id="videoModal">
@@ -166,10 +190,12 @@
 
         }
 
+        var heightWindow = $(window).height();
+
         $.fn.isInViewport = function() {
             var elementTop = $(this).offset().top;
             var elementBottom = elementTop + $(this).outerHeight();            
-            var viewportTop = $(window).scrollTop() + 300;
+            var viewportTop = $(window).scrollTop() + heightWindow * 70 / 100
             var viewportBottom = viewportTop + $(window).height();
             return elementTop <= viewportTop && elementBottom >= viewportTop;
         };
@@ -180,7 +206,9 @@
                 animated2 = true;
             }
             if(!animated3 && $('#events').isInViewport()) {
-                loadEvent();
+                rewindAnimation(function() {
+                    loadEvent();
+                });
                 animated3 = true;
             }
         })
@@ -201,6 +229,20 @@
             animateCSS('.aboutText1', 'fadeInLeft')  
             animateCSS('.aboutText2', 'fadeInLeft')
             animateCSS('.aboutText3', 'fadeInLeft')
+        })
+    }
+
+    function rewindAnimation(callback) {
+        $(".rewindContainer").removeClass("d-none");
+        animateCSS('.rewindContainer', 'slideInRight', function() {
+            setTimeout(function() {
+                takeToTab("#events")
+                animateCSS('.rewindContainer', 'fadeOut', function() {
+                    $(".rewindContainer").addClass("no-show");
+                    $(".rewindContainer").addClass("d-none");
+                    callback();
+                })
+            }, 100);
         })
     }
 
@@ -256,14 +298,74 @@
 
         animateCSS('.social-icons', 'fadeInLeft')
 
-
-        
     }
+
+    $(".link-yellow").on('click', function() {
+        var s = this.href.split("#")[1];
+        animateCSS('.top-popup', 'zoomIn', function() {
+            setTimeout(function(){
+                animateCSS('.popClose', 'swing')
+            }, 300)
+        });
+        $('.top-popup').removeClass("d-none");
+        populatePopup(s);
+    });
+
+    var eventData = {
+        "theater": null,
+        "dance": null,
+        "fun": null,
+        "photography": null,
+        "arts": null,
+        "gaming": null,
+        "lifestyle": null,
+    }
+    
+    function closePopup() {
+        animateCSS('.top-popup', 'zoomOut', function() {
+            $('.top-popup').addClass("no-show");              
+            $('.top-popup').addClass("d-none");              
+        });
+    }
+
+    function populatePopup(s) {
+        $("#eventTitle").html(s);
+        if(eventData[s] == null) {
+            $.ajax({
+                method: 'GET',
+                url: "/api/" + s,
+                success: function(result) {
+                    eventData[s] = result;
+                    populateEventPanel(result);
+                }
+            });
+        }
+        else {
+            populateEventPanel(eventData[s]);
+        }
+    }
+
+    function populateEventPanel(data) {
+        $("#eventList").empty();
+        for(var i = 0; i < data.length; i++) {
+            var eve = data[i];
+            var ele = '<div class="col-12 col-lg-4 py-2 text-center"><a href="' + eve.regLink + '" target="_blank" class="link-yellow"><img src="/static' + eve.img + '" class="img-fluid" width="100%" alt=""></a></div>'
+            $("#eventList").append(ele);
+        }
+    }
+
+    var excludeLinks = ["theater", "dance", "fun", "photography", "literary", "arts", "gaming", "lifestyle"]
 
     function takeToTab(tabName) {
         if(tabName != "") {
-            var elmnt = document.getElementById(tabName.split("#")[1]);
-            elmnt.scrollIntoView();
+            if(excludeLinks.includes(tabName.split("#")[1])){
+                var elmnt = document.getElementById("events");
+                elmnt.scrollIntoView();
+            }
+            else{
+                var elmnt = document.getElementById(tabName.split("#")[1]);
+                elmnt.scrollIntoView();
+            }
         }
     }
 

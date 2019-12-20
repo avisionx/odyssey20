@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
+from data import eventsData
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -11,6 +12,10 @@ def index():
         f.write(savemail + "\n")
         f.close()
     return render_template('index.html')
+
+@app.route("/api/<path:path>")
+def dataApi(path):
+    return jsonify(eventsData[path])
 
 @app.route("/privacy-policy/")
 def policy():

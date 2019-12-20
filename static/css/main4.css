@@ -2,10 +2,10 @@
 @import "./animate.css";
 body {
   font-family: 'Montserrat', sans-serif;
-  /* overflow-y: hidden;
+   overflow-y: hidden;
   height: 100%;
   position: fixed;
-  width:100%; */
+  width:100%; 
   overflow-x: hidden;
 }
 

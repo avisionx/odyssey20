@@ -2,14 +2,16 @@
 @import "./animate.css";
 body {
   font-family: 'Montserrat', sans-serif;
-   overflow-y: hidden;
+  overflow-y: hidden;
   height: 100%;
   position: fixed;
   width:100%; 
   overflow-x: hidden;
 }
 
-
+.delays {
+  animation-delay: 0.5s;
+}
 .preloader {
   position: fixed;
   z-index: 9999;
@@ -378,9 +380,40 @@ html {
   color: #F7B22C !important;
 }
 
+.pacman {
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  width: 300px;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.section-4 {
+  background: black;
+  height: 100vh !important;
+}
+.titles {
+  width: 150px;
+}
+
+.bw-bg {
+  background: url("/static/images/bw_era.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
 @media (max-width: 991.98px) { 
   .topbar {
     height: 40px;
+  }
+  
+  .bw-bg {
+    background-size: cover;
+  }
+  .pacman {
+    width: 200px;
   }
   .main-popup {
     top: 20%;
@@ -393,14 +426,6 @@ html {
   } 
 }
 
-.section-4 {
-  background: #B32285;
-  height: 50vh !important;
-}
-.section-5 {
-  background: #00F8FF;
-  height: 50vh !important;
-}
 
 .footer {
   background: #000;

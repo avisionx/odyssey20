@@ -1,6 +1,9 @@
 theater = [{
-        'img': '/eventImg/hasratein.jpg',
+        'img': '/eventImg/befikr.jpg',
         'regLink': "http://bit.ly/befikr20",
+    }, {
+        'img': '/eventImg/hasratein.jpg',
+        'regLink': "http://bit.ly/hasratein20",
     }, {
         'img': '/eventImg/unscripted_fbcover.jpg',
         'regLink': "http://bit.ly/unscript3d",
@@ -95,21 +98,6 @@ arts = [{
     }, {
         'img': '/eventImg/face painting.jpg',
         'regLink': "http://bit.ly/35xdR7q",
-    }, {
-        'img': '/eventImg/schism.jpg',
-        'regLink': "http://bit.ly/SCHISM20",
-    }, {
-        'img': '/eventImg/acapellujahfbcover.jpg',
-        'regLink': "bit.ly/acapellujah",
-    }, {
-        'img': '/eventImg/EncoreWestern-01.jpg',
-        'regLink': "https://forms.gle/AgCZ8ri1L6pd4jNUA",
-    }, {
-        'img': '/eventImg/EncoreIndian-01-01.jpg',
-        'regLink': "https://docs.google.com/forms/d/e/1FAIpQLSc8zYUYBptfBJ05--1kobub5OxQHVnf_gHaNyna5lt_axnhpg/viewform?usp=sf_link",
-    }, {
-        'img': '/eventImg/war of djs.jpg',
-        'regLink': "https://forms.gle/kJfc53frWgw4bHYt7",
     }, 
 ]
 photography = [{
@@ -128,7 +116,23 @@ lifestyle = [{
         'regLink': "https://bit.ly/34tpwTA",
     }, 
 ]
-
+music = [{
+        'img': '/eventImg/schism.jpg',
+        'regLink': "http://bit.ly/SCHISM20",
+    }, {
+        'img': '/eventImg/acapellujahfbcover.jpg',
+        'regLink': "bit.ly/acapellujah",
+    }, {
+        'img': '/eventImg/EncoreWestern-01.jpg',
+        'regLink': "https://forms.gle/AgCZ8ri1L6pd4jNUA",
+    }, {
+        'img': '/eventImg/EncoreIndian-01-01.jpg',
+        'regLink': "https://docs.google.com/forms/d/e/1FAIpQLSc8zYUYBptfBJ05--1kobub5OxQHVnf_gHaNyna5lt_axnhpg/viewform?usp=sf_link",
+    }, {
+        'img': '/eventImg/war of djs.jpg',
+        'regLink': "https://forms.gle/kJfc53frWgw4bHYt7",
+    }, 
+]
 eventsData = {
     "theater": theater,
     "dance": dance,
@@ -137,5 +141,6 @@ eventsData = {
     "arts": arts,
     "gaming": gaming,
     "lifestyle": lifestyle,
-    "literary": literary
+    "literary": literary,
+    "music": music
 }

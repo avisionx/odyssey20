@@ -370,7 +370,7 @@ html {
 }
 .secondary-popup {
   position: absolute;
-  top: 60%;
+  bottom: 8%;
   left: 50%;
 } 
 .text-yellow {
@@ -423,6 +423,7 @@ html {
   .secondary-popup {
     top: 58%;
     left: 15%;
+    bottom: auto;
   } 
 }
 

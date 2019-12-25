@@ -214,10 +214,6 @@ literary = [{
         'prize': "TBA",
         'team': "TBA",
         'description': "Your description para",
-        'rules': [
-            "Rule 1", 
-            "Rule 2"
-        ],
         'regLink': "http://bit.ly/OdysseyHaiku",
     }, {
         'id': 10,
@@ -391,10 +387,6 @@ fun = [{
         'prize': "TBA",
         'team': "TBA",
         'description': "Your description para",
-        'rules': [
-            "Rule 1", 
-            "Rule 2"
-        ],
         'regLink': "https://www.facebook.com/events/432371520815294/ ",
     }, {
         'id': 2,

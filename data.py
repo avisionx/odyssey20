@@ -226,7 +226,7 @@ literary = [{
             "Upper word limit is 2000 words",
             "Entries must only be in ENGLISH"
         ],
-        'regLink': "https://www.facebook.com/events/458568528348277/ ",
+        'regLink': "http://bit.ly/OdysseyContentWriting",
     }, 
 ]
 dance = [{

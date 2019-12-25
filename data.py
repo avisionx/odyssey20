@@ -108,7 +108,7 @@ literary = [{
         'time': "1 Member",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "𝙎𝙖𝙗𝙨𝙚 𝘼𝙘𝙝𝙝𝙖 𝘾𝙤𝙢𝙞𝙘-𝙆𝙖𝙪𝙣? 𝐈𝐭 𝐭𝐚𝐤𝐞𝐬 𝐚 𝐟𝐞𝐰 𝐝𝐫𝐨𝐩𝐬 𝐨𝐟 𝐡𝐮𝐦𝐨𝐫 𝐭𝐨 𝐚𝐝𝐝 𝐥𝐢𝐟𝐞 𝐭𝐨 𝐚 𝐛𝐥𝐚𝐧𝐝 𝐚𝐧𝐝 𝐭𝐢𝐫𝐞𝐬𝐨𝐦𝐞 𝐝𝐚𝐲. 𝐁𝐮𝐭 𝐜𝐨𝐦𝐞𝐝𝐲 𝐢𝐬 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 𝐣𝐮𝐬𝐭 𝐡𝐮𝐦𝐨𝐫. 𝐈𝐭 𝐢𝐬 𝐚𝐛𝐨𝐮𝐭 𝐜𝐨𝐧𝐟𝐢𝐝𝐞𝐧𝐜𝐞, 𝐰𝐢𝐭, 𝐚𝐧𝐝 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐨𝐟 𝐭𝐡𝐞 𝐚𝐮𝐝𝐢𝐞𝐧𝐜𝐞. 𝐎𝐝𝐲𝐬𝐬𝐞𝐲'𝟐𝟎 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐬 𝐏𝐮𝐧𝐜𝐡𝐥𝐢𝐧𝐞, 𝐰𝐡𝐞𝐫𝐞 𝐭𝐚𝐥𝐞𝐧𝐭𝐞𝐝 𝐜𝐨𝐦𝐞𝐝𝐢𝐚𝐧𝐬 𝐮𝐩 𝐭𝐡𝐞 𝐠𝐚𝐦𝐞 𝐨𝐟 𝐡𝐮𝐦𝐨𝐫, 𝐚𝐬 𝐭𝐡𝐞𝐲 𝐜𝐨𝐦𝐩𝐞𝐭𝐞 𝐚𝐭 𝐭𝐡𝐢𝐬 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦. 𝐏.𝐒. - 𝐈𝐟 𝐲𝐨𝐮 𝐠𝐞𝐭 𝐬𝐡𝐨𝐫𝐭𝐥𝐢𝐬𝐭𝐞𝐝, 𝐲𝐨𝐮'𝐥𝐥 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐜𝐨𝐦𝐞 𝐭𝐨 𝐈𝐈𝐈𝐓 𝐃𝐞𝐥𝐡𝐢 𝐨𝐧 𝟏𝟕𝐭𝐡 𝐉𝐚𝐧𝐮𝐚𝐫𝐲'𝟐𝟎 𝐟𝐨𝐫 𝐭𝐡𝐞 𝐅𝐢𝐧𝐚𝐥 𝐑𝐨𝐮𝐧𝐝. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐛𝐞 𝐩𝐫𝐞𝐩𝐚𝐫𝐞𝐝 𝐰𝐢𝐭𝐡 𝐚 𝟕-𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐒𝐭𝐚𝐧𝐝-𝐔𝐩 𝐟𝐨𝐫 𝐭𝐡𝐞 𝐟𝐢𝐧𝐚𝐥 𝐫𝐨𝐮𝐧𝐝. 𝐒𝐨 𝐠𝐞𝐭 𝐫𝐞𝐚𝐝𝐲 𝐭𝐨 𝐭𝐢𝐜𝐤𝐥𝐞 𝐨𝐮𝐫 𝐟𝐮𝐧𝐧𝐲 𝐛𝐨𝐧𝐞 𝐚𝐭 𝐭𝐡𝐞 𝐠𝐫𝐞𝐚𝐭𝐞𝐬𝐭 𝐬𝐭𝐚𝐧𝐝-𝐮𝐩 𝐜𝐨𝐦𝐞𝐝𝐲 𝐜𝐨𝐦𝐩𝐞𝐭𝐢𝐭𝐢𝐨𝐧. 𝐂𝐨𝐦𝐞 𝐭𝐨 𝐏𝐮𝐧𝐜𝐡𝐥𝐢𝐧𝐞 𝐭𝐨 𝐬𝐡𝐨𝐰 𝐨𝐟𝐟 𝐲𝐨𝐮𝐫 𝐬𝐤𝐢𝐥𝐥𝐬 𝐚𝐧𝐝 𝐞𝐚𝐫𝐧 𝐟𝐚𝐧𝐭𝐚𝐬𝐭𝐢𝐜 𝐩𝐫𝐢𝐳𝐞𝐬!", 
         'rules': [
             " It is a solo competition ", 
@@ -122,7 +122,7 @@ literary = [{
             "It would be ideal if you remember the perspectives of others and take mind not to irritate/hurt suppositions purposefully/unexpectedly.",
             "Marking will be based on :  1. Quality of content   2. Presentation and timing  3. Audience response and applause  4. The overall impact of the act"
         ],
-        'regLink': "bit.ly/PunchlineOdyssey",
+        'regLink': "http://bit.ly/PunchlineOdyssey",
     }, {
         'id': 4,
         'img': '/eventImg/unmute fb-cover.jpg',
@@ -159,7 +159,7 @@ literary = [{
             "There will be a total of two rounds, both online.",
             "Following us on Instagram is very important, no. of likes your post gets can also be a judgement criteria!!!!"
         ],
-        'regLink': "https://www.facebook.com/events/2460965914118764/",
+        'regLink': "http://bit.ly/16WordsToGo",
     }, {
         'id': 6,
         'img': '/eventImg/punwarsfbcover.jpg',
@@ -184,7 +184,7 @@ literary = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "‘Verses vs Verses’ is a bilingual IMPROV POETRY event, thinking out of the box, off the track, you are not gonna come prepared with your works, but this is a public oral recitation and performance of poetry or a verse written on the spot! This event will give writers a unique opportunity to share their work, receive immediate feedback and interact with other artistic people. <br> ROUND 1 - Improv poetry- rhyming or free verse(BONUS points if you doodle something!) With random chit- picking process, 4 people will be called up, from a set of prompts created by the organising team, a prompt will be announced, 5 minutes ( in totality 5 and not 5*4)  would be given to all to think and write about 2-4 lines, in the order of chits being picked, after 5 minutes, the participants will be called one by one, and asked to read or recite their content out. <br> After this, A different set of 4 people will be called, and the next prompt will be announced, 5 minutes would be given to all to think and write about 2-4 lines, This would go on till all participants are covered. <br> If it is not you in the set of 4, i.e. not your turn to write;  breathe, relax and listen to your peers! <br> Top 10 participants(judged on the basis of recited work, content, delivery, presence of mind) reach the next round. <br> ROUND 2-  Visual improv <br> 15 prompts would be displayed on the screen. On the basis of spontaenity, a person can chose his prompt.( In case of clash, whoever calls first get priority) <br> 10 minutes would be given to the participants(in totality 10 and not 10*10). They are expected to come up with a beautiful poem or prose.",
         'rules': [
             "No use of technology is allowed or encouraged throughout the event."
@@ -212,13 +212,13 @@ literary = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Your description para",
         'rules': [
             "Rule 1", 
             "Rule 2"
         ],
-        'regLink': "https://www.facebook.com/events/2830999633610371/ ",
+        'regLink': "http://bit.ly/OdysseyHaiku",
     }, {
         'id': 10,
         'img': '/eventImg/Content Writing_FB.jpg',
@@ -227,7 +227,7 @@ literary = [{
         'time': "TBA",
         'venue': "Online",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "an ONLINE event curated to celebrate the joy of writing. <br> Write to your heart’s content! <br> Participants present their long compositions, be it a story or a poem or a script. It’s free style so the composition doesn’t necessarily have to conform to any pre-existing literary structure, just words meaningfully strung together. <br> There will be a single round. Long compositions can be entered online. ",
         'rules': [
             "The entries will be checked for plagiarism against existing works and entries of other participants.", 
@@ -238,25 +238,8 @@ literary = [{
             "Upper word limit is 2000 words",
             "Entries must only be in ENGLISH"
         ],
-        'regLink': "https://www.facebook.com/events/458568528348277/ ",
-    }, {
-        'id': 11,
-        'img': '/eventImg/sagacityFBCOVER.jpg',
-        'name': "Sagacity: The Quiz",
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
-        'prize': "TBA",
-        'team': "Maximum of 2",
-        'description': "A quiz that amalgamates varied eras. Expect anything and everything to be a part of this quiz. Groundbreaking innovations, era-defining movies, news that sent shockwaves, will all go into making a quiz that celebrates the era that defines humanity.",
-        'rules': [
-            "No restriction on number of teams per school/college.", 
-            "First round is a written round. Top six (or eight) qualify for the finals which will be conducted on-stage.",
-            "Quiz-master’s decision is final and binding.",
-            "Use of electronic devices is strictly prohibited (in both rounds)."
-        ],
-        'regLink': "bit.ly/quizodyssey",
-    }, 
+        'regLink': "http://bit.ly/OdysseyContentWriting",
+    },
 ]
 dance = [{
         'id': 1,
@@ -266,7 +249,7 @@ dance = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Synchronised movements. Beating hearts. Screaming Spectators. <br> Feel their passion, feel their drive. Find yourself on your feet, rooting for your favourite team. <br> We present to you the most awaited event of the year that would let your minds and heart go crazy and the stage on fire. Dancer or not, the vibes would take you to places and send chills down through your spine as you sit and witness the best teams perform their hearts out. <br> The event would consist of 2 rounds. <br> Round 1: Video Round <br> Round 2: Finals <br> Video Preliminary Round- <br>  Length of the video should be 5-10 minutes <br> On stage limit is 5-17 members. Team limit is 40 members. <br> All dance forms, with the exception of Indian Classical, are permitted. <br> 10-12 teams shall be selected for finals. <br> Finals- <br> Length of performance should not exceed 7-10 minutes. <br> Teams will be given a stage setting time of 1.5 minutes (maximum). <br> All dance forms, with the exception of Indian Classical, are permitted. <br> On stage limit is 5-25 members. Team limit is 40 members.",
         'rules': [
             "Tracks for the teams must be carried in .mp3 format in a pendrive, hard drive or laptop as backup. Audio tracks have to be mailed a day before prelims and finals. ", 
@@ -306,7 +289,7 @@ dance = [{
             "Obscenity of any kind is not allowed and will lead to immediate disqualification.",
             "Violation of any of the above rules, will lead to heavy penalties"
         ],
-        'regLink': "bit.ly/streetdanceodyssey",
+        'regLink': "http://bit.ly/streetdanceodyssey",
     }, {
         'id': 3,
         'img': '/eventImg/Thematic cover.jpg',
@@ -315,7 +298,7 @@ dance = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "There are feelings, this heart can't convey. <br>There are messages, our words can't say.<br> And there are issues, we fail to put away.<br> So this time let those issues be dealt with dance. <br>Let your body speak what your words can't .<br>Dance is one of the most powerful tools to reach out to people.<br> It is a language which speaks to the heart.<br> With this notion at hand, we bring to you thematics- an event where a social concern is addressed with dance.<br>  There are no particular themes for this event.<br>Teams can perform on any theme they want.  <br>The dance style has to be western.",
         'regLink': "https://bit.ly/36JNdIL",
     }, {
@@ -326,7 +309,7 @@ dance = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "“Through synergy of intellect, artistry and grace came into existence the blessing of dancer.” So what are you waiting for? Come on and intensify this artistry together with a person having the same zest for dance. <br> Are you ready to be a part of one of the most popular dance events, an event where you can groove together with your partner? <br> Any two individuals can pair up (irrespective of their gender) to participate in this event. <br> Styles: Participants may perform any styles apart from Indian Classical and folk. <br> Judging Criteria: Synchronization, expressions, energy level, Stage utilization, Chemistry between the partners, and costumes. Innovativeness and creativity which appeals to the judges and the audience will be considered. <br> Stage Specifications:  Open stage  with audience on one side. <br> Slotting: The slotting procedure would be random. <br> Time Limit: 3-5 minutes.",
         'rules': [
             "Participants can be from different colleges, but both should be present college students.", 
@@ -347,7 +330,7 @@ dance = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Every participant would be required to submit a solo video entry for the preliminary round. (Video Length: 2-4 minutes)  <br> Top 20 participants would be selected for first round based on the online preliminary round, and get to perform at Odyssey ‘20. <br> Out of which, the judges select 9 participants for the battle round in which 3 battles will take place with 3 participants in each group. <br>The shortlisted participants will perform on given songs. <br> 1 participant from each group will be selected for the final battle round. <br> Eligibility Criteria: <br> Participants must be college or school students. <br> Age limit : 16-25 years",
         'rules': [
             "Western styles like Hip-Hop, Bboying, Jazz, Contemporary etc. ", 
@@ -406,7 +389,7 @@ fun = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Your description para",
         'rules': [
             "Rule 1", 
@@ -421,7 +404,7 @@ fun = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Embark on an enthralling hunt which will test your wits with mind-bending clues. <br>Compete against teams from all over the city to be the first ones to get your hands on the treasure. <br>Be a part of the most exhilarating treasure hunt of the year and get a chance to prove your mettle and take home some sweet loot.",
         'regLink': "https://bit.ly/HuntIT20",
     }, {
@@ -432,7 +415,7 @@ fun = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "A fun and exciting event where you get to spend time with someone you have never met, whom you don’t know. It’s fun to share interesting facts about yourself. With matches made on the basis of similar interests, you get to meet someone of 'your type', someone with whom you share your interests, ideas and perspectives. At the end of the day you have a great time with tons of memories and a fair possibility of making a new friend. <br> Event Structure: <br> You'll be blind folded for 2-3 minutes and allowed to interact with your partner. <br> There will be activities like pictionary to check your coordination and an in-campus selfie competition. <br> Rest all is a surprise!",
         'regLink': "http://bit.ly/blinddateodyssey",
     }, {
@@ -443,7 +426,7 @@ fun = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Food Arena, for all the foodies around the world, unleash your hunger, with the most exciting food from around the world.",
         'regLink': "http://bit.ly/foodarena20",
     }, {
@@ -518,7 +501,7 @@ arts = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "We are all artists, painting our lives upon the canvas of reality.<br> With Graffiti, why not paint our canvas of imagination too?<br> This event aims to provide a platform to the participants to showcase their creativity through wall art.",
         'rules': [
             "Registrations will be done online.", 
@@ -561,7 +544,7 @@ arts = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "“Aao ye chehra rang de <br> Jo khayalat hain unko bunn de <br> Ye jo tajassus ki kashti hai usko kinara de den”<br>Face painting event is a one-day event (approximately 3 hours long) on the second day of Odyssey.",
         'rules': [
             "The participants are required to bring their own paints and brushes", 
@@ -582,7 +565,7 @@ photography = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "In photography there is a reality so subtle that it becomes more real than reality.” <br> We humbly invite all the enthusiasts to come join us .<br>There will be an online preliminary round close to the date of the event, followed by an on-campus photography round. <br> Event Structure- <br> 1. There will be an online preliminary round for all the events. <br> 2. It will be a two-day event with Mobile photography and DSLR photography on Day 1 and Chitra on the second day <br> 3. Two stage elimination",
         'rules': [
             "Stay tuned for the additional details.", 
@@ -597,7 +580,7 @@ photography = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Online Editing Challenge is a photo-editing challenge designed for both beginners and experienced people. Participants would be given photos to edit and would be using techniques like layered photography. There is no age limit. <br> Everything is up to you guys. Feel free to edit the photo any way you want. Be as creative or be as realistic as you want to make things amazing. <br> Software’s you can use to edit your photo will be: - <br> 1. Adobe Lightroom CC <br> 2. PicsArt <br> 3. Snapseed <br> 4. Or any other ",
         'rules': [
             "You can edit the given photo on laptop or mobile phone.", 
@@ -626,7 +609,7 @@ lifestyle = [{
             "­Use of cigarettes, alcohol, and any unfair means is strongly prohibited.",
             "Duration of performance : ­Time limit (per team-from when your team is announced to when you get off the ramp) : 10 minutes(on stage time) + 5 minutes for choreo adjustments and transition time."
         ],
-        'regLink': "bit.ly/4RSILSS",
+        'regLink': "http://bit.ly/4RSILSS",
     }, {
         'id': 2,
         'img': '/eventImg/Trashion-01-01.jpg',
@@ -635,7 +618,7 @@ lifestyle = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "A fashion event in which outfits are designed from used/thrown out and repurposed elements. <br><br> EVENT STRUCTURE: <br> For the event we will be conducting two rounds, the key points are: <br> Round1: <br> ·        Any theme can be chosen by the participants. <br> ·        Since there will be a large number of people participating in round1 so we will provide them with limited but sufficient resources. <br> ·        Time based (1 hour 30 minutes, approx.) <br> ·        Ramp walk (preferably on stage-depends on its availability) <br> ·        Since the number of participants will be large in this round, they may start their work anywhere nearby venue. <br> ·        Participants will get only one chance for the ramp walk. <br> Round2: <br> ·        The theme for the final round will be vintage. <br> ·        Participants will have access to all the resources available (much more than sufficient) . <br>  ·        Time based (2 hours, approx.) <br> ·        Ramp walk (on stage) <br> ·        Participants will strictly be placed in a room or so. <br> ·        All the participating teams might practice once on the stage (while we will collect the audiences for our event). After that, only the final walk will be allowed.",
         'rules': [
             "A team can have at most 5 members and a minimum of 2.", 
@@ -653,7 +636,7 @@ music = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "Make Music not War... unless its the BATTLE OF BANDS <br> Schism is a nation-wide Battle of the Bands event being held during IIITD’s cultural fest Odyssey.<br> Watch as the best bands from all over India go head to head on stage to see who can make the crowd jump the highest, sing along the loudest and headbang the hardest. <br>Come, feel the energy of earth-shaking riffs and face-melting solos and find out for yourselves which region of India rocks the hardest.",
         'rules': [
             "All bands must register on the registration form given on the Facebook page or website to be eligible for participation.", 
@@ -675,7 +658,7 @@ music = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "We at IIIT Delhi are super excited to announce return of a fresh season of Acapellujah:- The acapella competition in our much awaited cultural fest Odyssey! <br>Does your team have what it takes to create mind blowing music using simply vocals and no instruments whatsoever?<br> If yes, then our event is the perfect place for you and your team to showcase your talents! <br>Come join us for a day filled with tuneful melodies, foot tapping beats and harmonies that are sure to take your breath away!", 
         'rules': [
             "1. More than 1 team from each college/institution is allowed to register and take part in the event.", 
@@ -720,7 +703,7 @@ music = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "number_here",
+        'team': "TBA",
         'description': "“Without ambition, one starts nothing. Without work, one finishes nothing. <br>The prize will not be sent to you. <br>You have to win it.” Your vocals are the face of your talent. Participants trained in the vocal aspects of Indian style are invited to compete. <br>Showcase your talent and win exciting prizes. <br> Online Portal Round <br> ● Submit a 2-3 min piece of music on the online portal we’ll share. <br> ● Background music permitted. <br> ● The submitted piece should have clear voice, and the participant shouldn’t autotune the piece or record it in someone else’s voice. This would lead to immediate disqualification. <br> Judging Criteria: <br> ● Preparedness <br>● Fundamentals (Pitch, Tone, Rhythm, tempo) <br> ● Voice quality (tonality, appropriateness to the genre, &amp; technique, breath control) <br> The participants chosen in this round would be permitted to present their talent in the next upcoming rounds at IIITD Campus.<br> Prabhav (Finale) <br>Choose a song of any genre. Incorporate some changes to make the song your own, at the same time preserve the original beauty of the song. <br> Single hand instrument or background karaoke music is allowed. (Karaoke file should be shared with us via email, 1 day prior to the day of the event)",
         'rules': [
             "➔ Team Size: 1",

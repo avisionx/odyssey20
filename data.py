@@ -110,7 +110,7 @@ literary = [{
             "It would be ideal if you remember the perspectives of others and take mind not to irritate/hurt suppositions purposefully/unexpectedly.",
             "Marking will be based on :  1. Quality of content   2. Presentation and timing  3. Audience response and applause  4. The overall impact of the act"
         ],
-        'regLink': "bit.ly/PunchlineOdyssey",
+        'regLink': "http://bit.ly/PunchlineOdyssey",
     }, {
         'id': 4,
         'img': '/eventImg/unmute fb-cover.jpg',
@@ -147,7 +147,7 @@ literary = [{
             "There will be a total of two rounds, both online.",
             "Following us on Instagram is very important, no. of likes your post gets can also be a judgement criteria!!!!"
         ],
-        'regLink': "https://www.facebook.com/events/2460965914118764/",
+        'regLink': "http://bit.ly/16WordsToGo",
     }, {
         'id': 6,
         'img': '/eventImg/punwarsfbcover.jpg',
@@ -206,7 +206,7 @@ literary = [{
             "Rule 1", 
             "Rule 2"
         ],
-        'regLink': "https://www.facebook.com/events/2830999633610371/ ",
+        'regLink': "http://bit.ly/OdysseyHaiku",
     }, {
         'id': 10,
         'img': '/eventImg/Content Writing_FB.jpg',
@@ -227,23 +227,6 @@ literary = [{
             "Entries must only be in ENGLISH"
         ],
         'regLink': "https://www.facebook.com/events/458568528348277/ ",
-    }, {
-        'id': 11,
-        'img': '/eventImg/sagacityFBCOVER.jpg',
-        'name': "Sagacity: The Quiz",
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
-        'prize': "TBA",
-        'team': "Maximum of 2",
-        'description': "A quiz that amalgamates varied eras. Expect anything and everything to be a part of this quiz. Groundbreaking innovations, era-defining movies, news that sent shockwaves, will all go into making a quiz that celebrates the era that defines humanity.",
-        'rules': [
-            "No restriction on number of teams per school/college.", 
-            "First round is a written round. Top six (or eight) qualify for the finals which will be conducted on-stage.",
-            "Quiz-master’s decision is final and binding.",
-            "Use of electronic devices is strictly prohibited (in both rounds)."
-        ],
-        'regLink': "bit.ly/quizodyssey",
     }, 
 ]
 dance = [{
@@ -294,7 +277,7 @@ dance = [{
             "Obscenity of any kind is not allowed and will lead to immediate disqualification.",
             "Violation of any of the above rules, will lead to heavy penalties"
         ],
-        'regLink': "bit.ly/streetdanceodyssey",
+        'regLink': "http://bit.ly/streetdanceodyssey",
     }, {
         'id': 3,
         'img': '/eventImg/Thematic cover.jpg',
@@ -623,7 +606,7 @@ lifestyle = [{
             "­Use of cigarettes, alcohol, and any unfair means is strongly prohibited.",
             "Duration of performance : ­Time limit (per team-from when your team is announced to when you get off the ramp) : 10 minutes(on stage time) + 5 minutes for choreo adjustments and transition time."
         ],
-        'regLink': "bit.ly/4RSILSS",
+        'regLink': "http://bit.ly/4RSILSS",
     }, {
         'id': 2,
         'img': '/eventImg/Trashion-01-01.jpg',
@@ -671,7 +654,7 @@ music = [{
             "Rule 1", 
             "Rule 2"
         ],
-        'regLink': "bit.ly/acapellujah",
+        'regLink': "http://bit.ly/acapellujah",
     }, {
         'id': 3,
         'img': '/eventImg/EncoreWestern-01.jpg',

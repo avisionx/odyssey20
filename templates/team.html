@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <style>
+        body {
+            background: white
+        }
+    </style>
+
+    {% include "nav.html" %}
+
+    <div class="container light pt-5">
+        <h1 class="pt-5 mb-0 light stretch text-center font-weight-bold faster" style="color: black">Our Team</h1>
+        <br>
+        <br><br>
+        <br><br>
+        <br>
+        <h1 class="pb-3 mb-0 bold display-3 text-center font-weight-bold faster" style="color: black">Coming Soon!</h1>
+        <br>
+        <br><br>
+        <br><br>
+        <br>
+    </div>
+
+    {% include "footer.html" %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    function loadAnimation() {
+        animateCSS('.faster', 'pulse', function() {
+            
+
+        })
+    }
+</script>
+{% endblock %}

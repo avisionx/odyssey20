@@ -426,8 +426,28 @@ html {
     bottom: auto;
   } 
 }
+.first-caps {
+  text-transform: capitalize;
+}
 
+.btn-outline-yellow {
+  background-color: none;
+  border-color: #F7B22C;
+  color: #F7B22C;
+}
 
+.btn-outline-yellow:hover,
+.btn-outline-yellow:active,
+.btn-outline-yellow:focus {
+  background-color: #F7B22C;
+  border-color: #F7B22C;
+  color: white;
+}
+
+.bg-black {
+  background: #000;
+  color: white;
+}
 .footer {
   background: #000;
 }
@@ -446,4 +466,9 @@ html {
   font-weight: normal;
   color:#000;
   opacity:1;
+}
+a.text-yellow:hover,
+a.text-yellow:active,
+a.text-yellow:focus {
+  color: rgb(206, 179, 89);
 }

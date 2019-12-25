@@ -11,7 +11,7 @@
                 <div class="w-100 p-1 mr-2 my-0 mt-1"><a href="https://www.facebook.com/odyssey.iiitd/" target="_blank" class="no-decoration small text-white"><img src="/static/img/fb.png" class="ml-2" width="50px" alt=""></a></div>
                 <div class="w-100 p-1 mr-2 my-0 mb-1"><a href="https://www.instagram.com/iiitdodyssey/" target="_blank" class="no-decoration small text-white"><img src="/static/img/IG.png" class="ml-2" width="50px" alt=""></a></div>
             </div>
-            <a href="/#home" style="z-index: 999"><img src="/static/images/logo.png" class="img-fluid homelogo no-show faster"></a>
+            <a href="/#home" style="z-index: 999"><img src="/static/images/logo2.png" class="img-fluid homelogo no-show faster"></a>
             <img src="/static/images/retro.png" class="retrotitle no-show fast" alt="">
             <div class="recreateContainer no-show fast">
                 <img src="/static/images/recreate.png" class="img-fluid recreate" alt="">
@@ -147,10 +147,10 @@
         <div class="col-12 bw-bg">
             <div class="pb-4 pb-lg-5 d-flex flex-column justify-content-end align-items-center" style="height: 50%" id="sponsors">
                 <img src="/static/images/the_sponsors.png" class="img-fluid titles no-show faster spoTitle delays" alt="">
-                <p class="text-white light strech h1 display-4 text-center py-3 no-show faster spoText">Our Proud <a href="#" class="text-white underline"> Sponsors</a></p>       
+                <p class="text-white light strech h1 display-4 text-center py-3 no-show faster spoText">Our Proud <a href="/sponsors" class="text-white underline"> Sponsors</a></p>       
             </div>
             <div class="pt-4 pt-lg-5 d-flex flex-column justify-content-top align-items-center" style="height: 50%" id="team">
-                <p class="text-white light strech h1 display-4 text-center py-3 no-show faster teamText">Meet the <a href="#" class="text-white underline"> Team</a></p>                       
+                <p class="text-white light strech h1 display-4 text-center py-3 no-show faster teamText">Meet the <a href="/team" class="text-white underline"> Team</a></p>                       
                 <img src="/static/images/the team.png" class="img-fluid titles no-show faster teamTitle delays" alt="">
             </div>
         </div>
@@ -364,20 +364,20 @@
                 url: "/api/" + s,
                 success: function(result) {
                     eventData[s] = result;
-                    populateEventPanel(result);
+                    populateEventPanel(result, s);
                 }
             });
         }
         else {
-            populateEventPanel(eventData[s]);
+            populateEventPanel(eventData[s], s);
         }
     }
 
-    function populateEventPanel(data) {
+    function populateEventPanel(data, eCat) {
         $("#eventList").empty();
         for(var i = 0; i < data.length; i++) {
             var eve = data[i];
-            var ele = '<div class="col-12 col-lg-4 py-2 text-center"><a href="' + eve.regLink + '" target="_blank" class="link-yellow"><img src="/static' + eve.img + '" class="img-fluid" width="100%" alt=""></a></div>'
+            var ele = '<div class="col-12 col-lg-4 py-2 text-center"><a href="/' + eCat + '/' + eve.id + '" target="_blank" class="link-yellow"><img src="/static' + eve.img + '" class="img-fluid" width="100%" alt=""></a></div>'
             $("#eventList").append(ele);
         }
     }
@@ -407,22 +407,6 @@
                 elmnt.scrollIntoView();
             }
         }
-    }
-
-    function animateCSS(element, animationName, callback) {
-        
-        const node = document.querySelector(element)
-        node.classList.add('animated', animationName)
-        node.classList.remove('no-show')
-
-        function handleAnimationEnd() {
-            node.classList.remove('animated', animationName)
-            node.removeEventListener('animationend', handleAnimationEnd)
-
-            if (typeof callback === 'function') callback()
-        }
-
-        node.addEventListener('animationend', handleAnimationEnd)
     }
 
 </script>

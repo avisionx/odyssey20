@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <style>
+        body {
+            background: linear-gradient(90deg, #000000 30px, transparent 1%) center, linear-gradient(#000000 30px, transparent 1%) center, #F7B22C;
+            background-size: 31px 31px;
+            color: white;
+        }
+        h1, h2 {
+            color: #F7B22C;
+            padding-top: 2rem;
+        }
+        nav {
+            background: transparent !important;
+            transition-duration: 0.3s;
+        }
+        .footer {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
+        }
+    </style>
+
+    {% include "nav.html" %}
+
+    <div class="light pt-3 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pb-2 d-lg-none">
+                    <ol class="breadcrumb p-0 small mb-0 bg-black">
+                        <li class="breadcrumb-item "><a class="text-yellow no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-yellow no-decoration first-caps" href="/#{{eventTypeLink}}">{{eventTypeLink}}</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                </div>
+                <div class="col-12 col-lg-7 order-2 order-lg-1">
+                    <ol class="breadcrumb p-0 small mb-0 d-none d-lg-flex bg-black">
+                        <li class="breadcrumb-item "><a class="text-yellow no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-yellow no-decoration first-caps" href="/#{{eventTypeLink}}">{{eventTypeLink}}</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                    <h4 class="font-weight-bold mb-1 mt-4">{{event.name}}</h4>	
+                    <p class="small text-white font-weight-light mt-2 mb-0">Date: {{event.date}} </p>
+                    <p class="small text-white font-weight-light mb-0">Time: {{event.time}} </p>
+                    <p class="small text-white font-weight-light mb-0">Venue: {{event.venue}}</p>
+                    <p class="small text-white font-weight-light mb-0">Prize: {{event.prize}}</p>
+                    <p class="small text-white font-weight-light mb-3">Team Size: {{event.team}}</p>
+                    <hr class="mt-5 w-50 d-none d-md-block bg-secondary" style="opacity: 0.2">
+                </div>
+                <div class="col-12 col-lg-5 order-1 order-lg-2">
+                    <img src="/static{{event.img}}" class="w-100 card faster rounded-0">
+                </div>
+                <div class="col-12 order-3 mt-2 mt-lg-4">
+                    
+                    <h4 class="font-weight-bold mb-1 mt-4">Description</h4>	
+                    <p class="pt-0">{{event.description | safe}}</p>
+
+                    
+                    {% if event.rules %}
+                    <h4 class="font-weight-bold mb-1 mt-4 mt-lg-5">Rules</h4>	
+                        <div class="row mt-3">
+                            <div class="col">
+                            {% for rule in event.rules %}
+                                <p>{{rule | safe}}</p>
+                            {% endfor %}     
+                            </div>
+                        </div>           
+                    {% endif %}
+                    
+                    {% if event.regLink != "TBA" %}
+                        <a class="btn btn-outline-yellow btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch" data-tilt target="_blank" href={{event.regLink}}>Register for Event</a>                                        
+                    {% else %}
+                        <a class="btn btn-outline-yellow btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch disabled" data-tilt href="#" onclick="return false;">Register Open Soon</a>                                                            
+                    {% endif %}
+                    
+                    {% if event.sponsors %}
+                    <h4 class="font-weight-bold mb-1 mt-4 mt-lg-5">Sponsors</h4>	
+                        <div class="row mt-3">
+                        {% for sponser in event.sponsors %}
+                        <div class="col-6 col-lg-3 my-4">
+                            <a href="{{sponser.link}}" target="_blank">
+                                <div class="bg-white h-100 d-flex align-items-center">
+                                    <img src="/static/img/sponsors/{{sponser.img}}" class="w-100 img-fluid py-3 px-3">
+                                </div>
+                            </a>
+                        </div>
+                        {% endfor %}     
+                        </div>           
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    function loadAnimation() {
+        animateCSS('.card', 'pulse', function() {
+            
+
+        })
+    }
+    $(window).on('resize scroll', function() {
+        var viewportTop = $(window).scrollTop();
+        if(viewportTop < 5) {
+            $("nav").attr("style", "background: transparent !important");
+        }
+        else {
+            $("nav").attr("style", "background: black !important");
+        }
+    })
+</script>
+{% endblock %}

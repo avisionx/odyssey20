@@ -2,8 +2,29 @@
 
 {% block content %}
 
-    <div class="container light py-4 py-lg-5">
-        <h1>Privacy Policy for ODYSSEY'20</h1>
+    <style>
+        body {
+            background: linear-gradient(90deg, #000000 30px, transparent 1%) center, linear-gradient(#000000 30px, transparent 1%) center, #F7B22C;
+            background-size: 31px 31px;
+            color: white;
+        }
+        h1, h2 {
+            color: #F7B22C;
+            padding-top: 2rem;
+        }
+        nav {
+            background: transparent !important;
+            transition-duration: 0.3s;
+        }
+        .footer {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
+        }
+    </style>
+
+    {% include "nav.html" %}
+
+    <div class="container light pt-5">
+        <h1 class="pt-5">Privacy Policy for ODYSSEY'20</h1>
 
         <p>At ODYSSEY'20, accessible from https://odyssey.iiitd.edu.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ODYSSEY'20 and how we use it.</p>
         
@@ -70,10 +91,23 @@
         <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
     </div>
 
+    {% include "footer.html" %}
+
 {% endblock %}
 
 {% block scripts %}
 <script type="text/javascript">
-    
+    function loadAnimation() {
+
+    }
+    $(window).on('resize scroll', function() {
+        var viewportTop = $(window).scrollTop();
+        if(viewportTop < 5) {
+            $("nav").attr("style", "background: transparent !important");
+        }
+        else {
+            $("nav").attr("style", "background: black !important");
+        }
+    })
 </script>
 {% endblock %}

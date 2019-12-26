@@ -1,6 +1,6 @@
 theater = [{
         'id': 1,
-        'img': '/eventImg/befikr.jpg',
+        'img': '/eventImg/befikrn.jpg',
         'name': "Befikr",
         'date': "TBA",
         'time': "TBA",
@@ -90,14 +90,13 @@ literary = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "Maximum of 5 Members",
-        'description': "Turn Quote is a debating competition which provide a platform to debaters from debating societies of renowned colleges to express their views and opinions on different topics . It will be a two day event. Turn Quote 2020 welcomes you! Winners will receive amazing prizes! All participants will receive certificates and amazing goodies! ",
+        'team': "1 Member",
+        'description': "Turn Quote is a debating competition which provide a platform to debaters from debating societies of renowned colleges to express their views and opinions on different topics . <br>It will be a two day event. <br>Turn Quote 2020 welcomes you!<br> Winners will receive amazing prizes! All participants will receive certificates and amazing goodies! ",
         'rules': [
             "Every team will get 10 mins to speak with a negotiable time limit of 1 min.", 
             "The 10 mins are distributed as - First five mins will be for introduction of your topic. Then your oppositon team will do the same.",
             "Next 3 mins(Question Round) - In this round you can question other team and put forward more points in favour of your topic.",
-            "Next 2 mins(Defense round) - In this round you have to give answers to the questions asked by other team in the questioning round.",
-            "Upper limit of members for each team is 5."
+            "Next 2 mins(Defense round) - In this round you have to give answers to the questions asked by other team in the questioning round."
         ],
         'regLink': "http://bit.ly/Turnquote",
     }, {
@@ -162,7 +161,7 @@ literary = [{
         'regLink': "http://bit.ly/16WordsToGo",
     }, {
         'id': 6,
-        'img': '/eventImg/punwarsfbcover.jpg',
+        'img': '/eventImg/punwars.jpg',
         'name': "Pun Wars",
         'date': "17 & 18th Jan",
         'time': "TBA",

@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify, abort
 from data import eventsData
+from teamData import teamJson
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -32,9 +33,9 @@ def policy():
 # def sponsors():
 #     return render_template('sponsors.html')
 
-# @app.route("/team/")
-# def team():
-#     return render_template('team.html')
+@app.route("/team/")
+def team():
+    return render_template('team.html', team=teamJson)
 
 @app.errorhandler(404)
 def page_not_found(e):

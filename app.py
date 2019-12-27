@@ -29,9 +29,9 @@ def event(categ, idE):
 def policy():
     return render_template('policy.html')
 
-# @app.route("/sponsors/")
-# def sponsors():
-#     return render_template('sponsors.html')
+@app.route("/sponsors/")
+def sponsors():
+    return render_template('sponsorsunder.html')
 
 @app.route("/team/")
 def team():

@@ -52,13 +52,12 @@
         <script>
             
             var mobileUI = false;
-            
-            $(window).on('load', function() {
+            window.onload = function() {
                 $(".preloader").delay(500).fadeOut("slow", function(){
                     $('body').css({'overflow-y':'auto', 'height':'auto', 'position':'relative'});
                     loadAnimation();
                 });
-            })
+            }
 
             var s = skrollr.init({
 	            keyframe: function(element, name, direction) {

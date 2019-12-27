@@ -24,7 +24,7 @@ to contribute to this:
 
 3. Add the base repository as a remote:
     
-    `git remote add upstream https://github.com/digitalPlayer1125/odyssey.iiitd.edu.in.git`
+    `git remote add upstream https://github.com/<username>/odyssey.iiitd.edu.in.git`
 
 4. Follow the instructions in the README files of each of the directories listed under [About this Repository](#about-this-repository) section of this readme to set up your development environment.
 

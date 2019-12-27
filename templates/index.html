@@ -333,13 +333,13 @@
 
     $(".link-yellow").on('click', function() {
         var s = this.href.split("#")[1];
+        populatePopup(s);
         animateCSS('.top-popup', 'zoomIn', function() {
             setTimeout(function(){
                 animateCSS('.popClose', 'swing')
             }, 300)
         });
         $('.top-popup').removeClass("d-none");
-        populatePopup(s);
     });
 
     var eventData = {

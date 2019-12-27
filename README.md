@@ -1,5 +1,5 @@
 # Odyssey'20 | The Annual Cultural Fest of IIITD
-![logo](https://odyssey.iiitd.edu.in/static/images/logo2.png)
+![logo](https://odyssey.iiitd.edu.in/static/images/logo2.png){:height="20%" width="20%"}
 
 ## About this Repository
 

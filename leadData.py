@@ -1,8 +1,8 @@
 leadJson = [{
         'position': "Creatives Lead",
         'name': "Avi Garg",
-        'email': "avi17223@iiitd.ac.in",
-        'phone': "+91-8745009643",
+        # 'email': "avi17223@iiitd.ac.in",
+        # 'phone': "+91-8745009643",
         'image': "AviGargLead.jpg"
     }, {
         'position': "Creatives Lead",

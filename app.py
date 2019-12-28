@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify, abort
 from data import eventsData
 from teamData import teamJson
+from leadData import leadJson
 
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
@@ -35,7 +36,7 @@ def sponsors():
 
 @app.route("/team/")
 def team():
-    return render_template('team.html', team=teamJson)
+    return render_template('team.html', team=teamJson, leads=leadJson)
 
 @app.errorhandler(404)
 def page_not_found(e):

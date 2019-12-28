@@ -492,7 +492,7 @@ arts = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "TBA",
+        'team': "3-5 Members",
         'description': "We are all artists, painting our lives upon the canvas of reality.<br> With Graffiti, why not paint our canvas of imagination too?<br> This event aims to provide a platform to the participants to showcase their creativity through wall art.",
         'rules': [
             "Registrations will be done online.", 
@@ -731,7 +731,7 @@ music = [{
         'regLink': "https://forms.gle/kJfc53frWgw4bHYt7",
     },{
         'id': 6,
-        'img': '/eventImg/',
+        'img': '/eventImg/caden.jpg',
         'name': "Cadenza",
         'date': "TBA",
         'time': "TBA",
@@ -755,7 +755,7 @@ music = [{
         'regLink': "https://bit.ly/39tACMa",
     }, {
         'id': 7,
-        'img': '/eventImg/',
+        'img': '/eventImg/QafilaFBCover1.jpg',
         'name': "Qafila",
         'date': "TBA",
         'time': "TBA",

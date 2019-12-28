@@ -101,11 +101,4 @@ teamJson = [{
     'phone': "+91-9899046374",
     'image': "ArnavTandonOp.jpg"
 }, 
-# {
-#     'position': "Treasurer",
-#     'name': "Munish",
-#     'email': "munish16167@iiitd.ac.in",
-#     'phone': "+91-8527720505",
-#     'image': "AdityaOps.jpg"
-# },
 ]

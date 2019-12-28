@@ -118,13 +118,13 @@
             </div>
             <div class="popup col-10 col-lg-3 secondary-popup no-show faster px-2 pb-2" style="z-index: 5">
                 <div class="popup-buttons my-1" style="position: relative">
-                    <img src="/static/img/closeb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
+                    <img src="/static/img/closeb.svg" style="cursor: pointer" onclick="closeSecondary()" width="20px" class="img-fluid bg-popmain p-1" alt="">
                     <img src="/static/img/squareb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
                     <img src="/static/img/minusb.svg" width="20px" class="img-fluid bg-popmain p-1" alt="">
                     <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0; color: white">Nirvana Night</p>
                 </div>
                 <div class="bg-popsecondary text-white p-2 p-lg-3">
-                    <p class="m-0 text-left stretch px-1">You've seen Prateek Kuhad, Harddy, Gajendra and TLT at Odyssey. <b>Who will perform at the Nirvana of the Decade?</b></p>
+                    <p class="m-0 text-left stretch px-1">You've seen Prateek Kuhad, Hardy, Gajendra and TLT at Odyssey. <b>Who will perform at the Nirvana of the Decade?</b></p>
                 </div>
             </div>
             <div class="popup top-popup px-2 pb-2 faster no-show d-none" style="z-index: 6">
@@ -357,6 +357,13 @@
         animateCSS('.top-popup', 'zoomOut', function() {
             $('.top-popup').addClass("no-show");              
             $('.top-popup').addClass("d-none");              
+        });
+    }
+
+    function closeSecondary() {
+        animateCSS('.secondary-popup', 'zoomOut', function() {
+            $('.secondary-popup').addClass("no-show");              
+            $('.secondary-popup').addClass("d-none");              
         });
     }
 

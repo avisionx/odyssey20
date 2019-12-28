@@ -40,21 +40,23 @@
                 {% endfor %}
             </div>
         </div>
-<!-- 
-        <h1 class="bold text-center mb-3 mb-lg-4 mt-5"><b>Developer</b></h1>
+
+        <h1 class="bold text-center mb-3 mb-lg-4 mt-4"><b>Leads</b></h1>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-3 my-3 hoverPanel" style="position: relative">
-                    <img src="/static/img/team/Avi.jpg" class="w-100 h-100 hoverImage" alt="Avi Garg">
+            <div class="row justify-content-center">
+                {% for member in leads %}
+                <div class="col-12 col-md-3 col-lg-3 my-3 hoverPanel" style="position: relative">
+                    <img src="/static/teamImg/{{member.image}}" class="w-100 h-100 hoverImage" alt="{{member.name}}">
                     <div class="text-center hoverMiddle">
-                        <p class="text-white text-uppercase bold stretch h5 mb-0">Website Head</p>
-                        <p class="text-white text-uppercase light m-0">Avi Garg</p>
-                        <p class="m-0"><a href="mailto:avi17223@iiitd.ac.in" class="text-white light m-0 small">avi17223@iiitd.ac.in</a></p>
-                        <p class="m-0"><a href="tel:+91-8745009643" class="text-white light m-0 small">+91-8745009643</a></p>
+                        <p class="text-white text-uppercase bold stretch h5 mb-0">{{member.position}}</p>
+                        <p class="text-white text-uppercase light m-0">{{member.name}}</p>
+                        <p class="m-0"><a href="mailto:{{member.email}}" class="text-white light m-0 small">{{member.email}}</a></p>
+                        <p class="m-0"><a href="tel:{{member.phone}}" class="text-white light m-0 small">{{member.phone}}</a></p>
                     </div>
                 </div>
+                {% endfor %}
             </div>
-        </div> -->
+        </div>
     </div>
 
     {% include "footer.html" %}

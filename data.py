@@ -206,13 +206,13 @@ literary = [{
     }, {
         'id': 9,
         'img': '/eventImg/haiku.jpg',
-        'name': "",
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
+        'name': "Haiku",
+        'date': "Till 15 Jan 2020",
+        'time': "All day",
+        'venue': "Online",
         'prize': "TBA",
-        'team': "TBA",
-        'description': "Your description para",
+        'team': "1 Member",
+        'description': "",
         'regLink': "http://bit.ly/OdysseyHaiku",
     }, {
         'id': 10,
@@ -476,7 +476,7 @@ gaming = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "1 Member",
-        'description': "This is *the*  event to test your gaming skills. <br>Come show off your how well your hands know their way on that controller and thrash your opponent like a psychopath. <br>You'll have a plethora of options when it comes to asserting dominance over your opponent, you can shoot some stunning goals on FIFA, bring your opponent to a gore-filled bloody ending in Mortal Kombat, show your godly skills in Injustice or stupefy the crowd and be the last man standing in Royal Rumble.",
+        'description': "This is <span class='h4 font-weight-bold'>the</span>  event to test your gaming skills. <br>Come show off your how well your hands know their way on that controller and thrash your opponent like a psychopath. <br>You'll have a plethora of options when it comes to asserting dominance over your opponent, you can shoot some stunning goals on FIFA, bring your opponent to a gore-filled bloody ending in Mortal Kombat, show your godly skills in Injustice or stupefy the crowd and be the last man standing in Royal Rumble.",
         'rules': [
             "The event is a competitive knockout based tournament where you must slay down your opponent to thrive. ", 
             "You'll have two chances to prove your worth!"
@@ -538,10 +538,8 @@ arts = [{
         'team': "TBA",
         'description': "“Aao ye chehra rang de <br> Jo khayalat hain unko bunn de <br> Ye jo tajassus ki kashti hai usko kinara de den”<br>Face painting event is a one-day event (approximately 3 hours long) on the second day of Odyssey.",
         'rules': [
-            "The participants are required to bring their own paints and brushes", 
-            "Only the first few (10-15) teams would be provided with paints.",
+            "The participants are required to bring their own paints and brushes",
             "The theme would be provided to the participants one day before the event.",
-            "The event would be open theme synonymous with the theme of ODYSSEY’19",
             "Teams of at max 3 members (including the person on whom painting will be done)",
             "Entries will be judged by judges/OT just after the event. In all cases the judge’s decision is final."
         ],
@@ -556,11 +554,12 @@ photography = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "TBA",
-        'description': "In photography there is a reality so subtle that it becomes more real than reality.” <br> We humbly invite all the enthusiasts to come join us .<br>There will be an online preliminary round close to the date of the event, followed by an on-campus photography round. <br> Event Structure- <br> 1. There will be an online preliminary round for all the events. <br> 2. It will be a two-day event with Mobile photography and DSLR photography on Day 1 and Chitra on the second day <br> 3. Two stage elimination",
+        'team': "Max cap-3",
+        'description': "In photography there is a reality so subtle that it becomes more real than reality.” <br> We humbly invite all the enthusiasts to come join us. <br> There are two events under Captcha- <br> 1. Mobile/DSLR Photography <br> 2. Chitra <br> Mobile/DSLR Photography <br> An old-school theme based competitive-photography event. <br> Themes for the on-campus will be declared on-the-spot ; For the online preliminary rounds, you will receive an E-mail soon with additional details. <br> Chitra <br> Taking pictures is savoring life intensely, every hundreth of a second. <br> An event unlike any other, we present to you, Chitra. A stand-out event merging photography and modelling. <br> So take the best side of your camera and pose like never before. <br> There will be two categories of participants, one who poses with poise and who clicks with creativity. <br> Prizes will be distributed individualy to both the categories. <br> Stand a chance to win H&M gift cards along with exciting vouchers and cash prizes! <br> You can register in Teams, comprising of the the photographer and the model(s). <br> Max size: 3 <br> Individual registrations are also welcome for either of the categories, we will match you on-the-spot with a partner for the on-campus rounds. <br> Event Structure- <br> 1. There will be an online preliminary round for all the events. <br> 2. It will be a two-day event with Mobile photography and DSLR photography on Day 1 and Chitra on the second day <br> 3. Two stage elimination",
         'rules': [
-            "Stay tuned for the additional details.", 
-            "Follow us on our social media handles to stay updated."
+            "1. The photographs for the on-campus rounds have to be shot with-in the bounded area and the given time-frame.",
+            "2. You can participate in both the events, fill the registration form twice, once each for the respective sub-event",
+            "3. For Team Registrations(Chitra), all the participants of a given team have to fill the form with the same team name."
         ],
         'regLink': "https://bit.ly/2EqxJNG",
     }, {
@@ -610,11 +609,12 @@ lifestyle = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'description': "A fashion event in which outfits are designed from used/thrown out and repurposed elements. <br><br> EVENT STRUCTURE: <br> For the event we will be conducting two rounds, the key points are: <br> Round1: <br> ·        Any theme can be chosen by the participants. <br> ·        Since there will be a large number of people participating in round1 so we will provide them with limited but sufficient resources. <br> ·        Time based (1 hour 30 minutes, approx.) <br> ·        Ramp walk (preferably on stage-depends on its availability) <br> ·        Since the number of participants will be large in this round, they may start their work anywhere nearby venue. <br> ·        Participants will get only one chance for the ramp walk. <br> Round2: <br> ·        The theme for the final round will be vintage. <br> ·        Participants will have access to all the resources available (much more than sufficient) . <br>  ·        Time based (2 hours, approx.) <br> ·        Ramp walk (on stage) <br> ·        Participants will strictly be placed in a room or so. <br> ·        All the participating teams might practice once on the stage (while we will collect the audiences for our event). After that, only the final walk will be allowed.",
+        'description': "Trashion sends greetings to the kings and queens of Fashion ! <br> WHAT'S THIS ABOUT!? <br> Trashion is a philosophy and an ethic encompassing  environmentalism and innovation. So we bring you one of the most exhilarating events of ODYSSEY '20 ! <br> DESCRIPTION: <br> 1) Participants will use their creative minds, put their best foot forward and fabricate their dream outfits ! <br> 2) How do you do so? Well, we provide you with tons of trash (newspapers, straws, paper plates and much more). <br> 3) 'Time waits for None' therefore you are provided with a scarce time of 1 hour 30 mins. <br> 4) Every team will send their best cat-walker to impress the judges along with audience.",
         'rules': [
-            "A team can have at most 5 members and a minimum of 2.", 
-            "Plagiarism Policy, if any team found copying the idea then that team will be disqualified, ideas should be unique.",
-            "Vulgarity is strictly prohibited, any scene of obscenity will lead to immediate disqualification."
+            "You can join us in a crowd of 2 to 5.",
+            "Caution: Any team found copying ideas will invite debarring from the event.",
+            "Any form of vulgarity will lead to immediate disqualification."
+            "Be nice, Be respectful."
         ],
         'regLink': "https://bit.ly/34tpwTA",
     }, 
@@ -729,7 +729,42 @@ music = [{
             "Team size : Solo / Duo"
         ],
         'regLink': "https://forms.gle/kJfc53frWgw4bHYt7",
-    }, 
+    },{
+        'id': 6,
+        'img': '/eventImg/',
+        'name': "Cadenza",
+        'date': "TBA",
+        'time': "TBA",
+        'venue': "TBA",
+        'prize': "TBA",
+        'team': "TBA",
+        'description': "There are certain things that a human voice just cannot achieve.<br>Certain sounds that, despite being unique and beautiful, get overshadowed by the lead singer’s voice.<br>The years of hard work spent into perfecting the art of playing an instrument deserves to be seen by all.<br>Cadenza, Odyssey’s solo instrumental competition, provides a platform to all the instrumentalists to step ahead, shine and make the stage theirs, as the audience looks and cheers in pure astonishment.<br>This event brings together all the forms of instrumental music:  melody and percussion, classical and light, Indian and Western and all the rest. <br><br>Two Rounds-<br>1. Online prelims<br>2. 10 finalists will be selected to perform at the event, out of which the top 2 or 3 will be given prizes. ",
+        'rules': [
+            "1. Eligibility: Upto age 25.", 
+            "2. For the online prelims, the participants are to send a drive link (or equivalent) of a 1-3 minutes long video of themselves playing the instrument, without accompaniment(electronic tanpura/electronic tabla/metronome allowed)",
+            "3. For the final round, the participants are required to send their tech rider and any other requirements a few days in advance.",
+            "4. For the final round, either a backing track or an accompanying instrumentalist is allowed. Participants must arrange for the same on their own. ",
+            "5. Backing track must be submitted to the organizing team a few days in advance. The backing track should not overpower the instrument being played.",
+            "6. In case of accompanying instrumentalist, he/she should act strictly as a background/rhythm instrumentalist and should, at no point, overpower the participant.",
+            "7. The participants (except drummers) must bring their own instruments.",
+            "8. Mics, chairs, amplifiers, electronic tanpura, etc. will be provided. But if the participant’s instrument requires a processor or an interface, they must bring that on their own.",
+            "9. The time slot allotted to each participant in the final round will be 10 minutes, including the setup and sound-check. The time begins as soon as the participant steps on the stage.",
+            "10. The decision of the judges will be final and binding. The participants may stay for feedback but arguing with the judge, and unruly behaviour, in general, may lead to disqualification.",
+            "11. Needless to say, singing/using your voice is not allowed."
+        ],
+        'regLink': "https://bit.ly/39tACMa",
+    }, {
+        'id': 7,
+        'img': '/eventImg/',
+        'name': "Qafila",
+        'date': "TBA",
+        'time': "TBA",
+        'venue': "TBA",
+        'prize': "TBA",
+        'team': "TBA",
+        'description': "<br>Imagine sitting in a room with fifty other people.<br> People who genuinely enjoy music. <br>Almost everyone has a cup of chai in their hands.<br> It’s a small setting – a closed space. <br>There’s a live band in front of you. <br>Your friend sitting next to you is humming along to their music. <br>Everything is soft around you - from the warm yellow lights to the pillow you sit upon. <br>You can feel yourself drifting away into the music. <br>Are you even here anymore?<br>Qafila is an event similar to the gigs hosted by Sofar Sounds. <br>Sofar works to transform everyday spaces into intimate areas where the audience and artist can interact and form a bond.<br> The venues are emailed a day before the performance, and the artist is kept unknown till you’re sitting in front of them.<br> The selling point of Sofar is that entry is selective - very few people actually get to attend these events.<br><br>Qafila is the Urdu word for ‘caravan’. Just like a wandering bard, these artists will show up without you knowing.",
+        'regLink': "",
+    },
 ]
 eventsData = {
     "theater": theater,

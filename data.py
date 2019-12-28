@@ -428,7 +428,7 @@ fun = [{
         'time': "TBA",
         'venue': "TBA",
         'prize': "TBA",
-        'team': "4 to 5 Members",
+        'team': "2 to 5 Members",
         'description': "Stuff yourself with something unexpected, something that seems to be HELL but turns out to be HEAVEN. <br> Does your heart skip a beat every time someone talks about food ? <br> Are you Joey to your food ? <br> We believe there is no love greater than the love for food.<br> So we present to you a fun-filled cook-off challenge in one of the most awaited cultural fests of Delhi - Odyssey. This time , the teams will not only cook mouth-watering meals but also show their skill in selling what they create.<br> So get ready with your knives and food  <br> to set fire at IIITD! <br><br> We are planning to have two rounds. <br><br> In first round participants are open to make whatever they want from given ingredients in given time constraint . <br><br> For second round we will shortlist best 5 performers in the first round. Then we will give them some props that they have to use in their dishes and in second round we also going to judge them by the audience.",
         'regLink': "http://bit.ly/2PtgPo3",
     },

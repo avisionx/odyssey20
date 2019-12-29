@@ -662,7 +662,7 @@ music = [{
             "8. The description of their piece and the idea behind it must be explained within the time frame given (12 minutes)",
             "9. Judge decision will be final and binding."
         ],
-        'regLink': "bit.ly/acapellujah",
+        'regLink': "http://bit.ly/acapellujah",
     }, {
         'id': 3,
         'img': '/eventImg/EncoreWestern-01.jpg',

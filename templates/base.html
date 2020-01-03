@@ -29,7 +29,7 @@
         <title>Odyssey'20 | The Annual Cultural Fest of IIITD</title>
         <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat:300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="/static/css/main8.css">
+        <link rel="stylesheet" href="/static/css/main10.css">
     </head>
     
     <body class="no-scroll">
@@ -52,13 +52,12 @@
         <script>
             
             var mobileUI = false;
-            
-            $(window).on('load', function() {
-                $(".preloader").delay(1000).fadeOut("slow", function(){
+            window.onload = function() {
+                $(".preloader").delay(500).fadeOut("slow", function(){
                     $('body').css({'overflow-y':'auto', 'height':'auto', 'position':'relative'});
                     loadAnimation();
                 });
-            })
+            }
 
             var s = skrollr.init({
 	            keyframe: function(element, name, direction) {

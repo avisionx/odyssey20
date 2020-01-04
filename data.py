@@ -792,7 +792,7 @@ music = [{
             "6. Time limit should be strictly followed. Participants will be penalized for exceeding so.",
             "7. Decision made by judges would be final and no criticism whatsoever would be entertained after that."
         ],
-        'regLink': "",
+        'regLink': "https://forms.gle/r3MkYS1UuUyimf5q8",
     },
 ]
 eventsData = {

@@ -755,7 +755,7 @@ music = [{
         'regLink': "https://bit.ly/39tACMa",
     }, {
         'id': 7,
-        'img': '/eventImg/facebookQafila.jpg',
+        'img': '/eventImg/QafilaFBCover1.jpg',
         'name': "Qafila",
         'date': "TBA",
         'time': "TBA",

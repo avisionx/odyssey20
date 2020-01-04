@@ -755,7 +755,7 @@ music = [{
         'regLink': "https://bit.ly/39tACMa",
     }, {
         'id': 7,
-        'img': '/eventImg/QafilaFBCover1.jpg',
+        'img': '/eventImg/facebookQafila.jpg',
         'name': "Qafila",
         'date': "TBA",
         'time': "TBA",
@@ -763,6 +763,17 @@ music = [{
         'prize': "TBA",
         'team': "TBA",
         'description': "<br>Imagine sitting in a room with fifty other people.<br> People who genuinely enjoy music. <br>Almost everyone has a cup of chai in their hands.<br> It’s a small setting – a closed space. <br>There’s a live band in front of you. <br>Your friend sitting next to you is humming along to their music. <br>Everything is soft around you - from the warm yellow lights to the pillow you sit upon. <br>You can feel yourself drifting away into the music. <br>Are you even here anymore?<br>Qafila is an event similar to the gigs hosted by Sofar Sounds. <br>Sofar works to transform everyday spaces into intimate areas where the audience and artist can interact and form a bond.<br> The venues are emailed a day before the performance, and the artist is kept unknown till you’re sitting in front of them.<br> The selling point of Sofar is that entry is selective - very few people actually get to attend these events.<br><br>Qafila is the Urdu word for ‘caravan’. Just like a wandering bard, these artists will show up without you knowing.",
+        'regLink': "https://forms.gle/8biyLpVsqigErxZT6",
+    },{
+        'id': 8,
+        'img': '/eventImg/rap battle.jpg',
+        'name': "Rap Battle",
+        'date': "TBA",
+        'time': "TBA",
+        'venue': "TBA",
+        'prize': "TBA",
+        'team': "TBA",
+        'description': "TBA",
         'regLink': "",
     },
 ]

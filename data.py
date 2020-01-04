@@ -755,7 +755,7 @@ music = [{
         'regLink': "https://bit.ly/39tACMa",
     }, {
         'id': 7,
-        'img': '/eventImg/facebookQafila.jpg',
+        'img': '/eventImg/QafilaFBCover1.jpg',
         'name': "Qafila",
         'date': "TBA",
         'time': "TBA",
@@ -773,7 +773,25 @@ music = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'description': "TBA",
+        'description': "EVENT STRUCTURE:<br>Based on the no of participants. Rappers would be grouped for different rounds.<br>If they are more than 16 participants then we’ll have an online preliminary rounds.<br>Online-prelims(in case of more than 16 participants): participants need to rap for at least one minute and record them on video(they can include a suitable backing track if they want to but without any special effects) and send them via google drive link through the form which would be distributed before odyssey.<br><br>Structure:<br>It will be a solo duet competition, means each individual will compete against each other.<br>There would be a total of 4 rounds(top16, quarter-finals, semi-finals, final) and all them will be knockouts <br>Rappers would continue to proceed in next rounds as long as they successfully defeat their opponent based on decisions made by judges.<br>Final round will have only top 2 participants who made that far and it will be a knockout.<br><br>Tentative Judgement criteria:<br>Participants would be judged based on their(not specifically ordered):<br>Confidence<br>Flow<br>roasts /burns<br>Humor<br><br> Bonus: Since every rapper would be judged at every moment since the start of the event based on their flow, confidence, verses by our esteemed panel of judges. There would be a grading for the top contender and finalist having most points will have a slight edge and perk of extra 30 seconds provided in each sub-round only in the finals which he/she can decline if they don’t want.",
+        'rules': [
+            "Rules for Top 16, quat, semis:",
+            "Contestants will be grouped in pairs for the rap battle",
+            "For each round there will be a rap battle among every pair.",
+            "Every rap battle will have 3 sub-rounds and both the contestants will be given 1 min of time to freestyle in front of their opponent..",
+            "Winner will be decided who wins the most rounds from these 3 sub  rounds.",
+            "There is no scope of tie in a given sub round as decision made by judges would be final and no criticism whatsoever would be entertained after that.",
+            "Rules Of Finals",
+            "All instructions are the same as above mentioned rounds except in each subround time limit will be increased to 1.5 mins per finalist.",
+            "General Rules",
+            "1. The language of the rap must be hindi or english or it can be hinglish.",
+            "2. The participants are free to play any beat of their kind, which they have to provide beforehand and if they don’t have a beat of their choice then both of them will be provided with the same beat for every sub-round ."
+            "3. During the battle no participant is allowed to speak when his opponent is taking charge of the mic. Doing so will lead to penalization.",
+            "4. None of the rap verses should target topics like: sexism, vulgarity,  racism(use of n-word in your verse doesn't make you dope), obscenity. Doing so will lead to immediate disqualification.",
+            "5. No plagiarism policy! Any rapper found to be using someone else’s claimed content will be penalized heavily and might lead to disqualification.  ",
+            "6. Time limit should be strictly followed. Participants will be penalized for exceeding so.",
+            "7. Decision made by judges would be final and no criticism whatsoever would be entertained after that."
+        ],
         'regLink': "",
     },
 ]

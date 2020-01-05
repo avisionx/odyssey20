@@ -580,3 +580,11 @@ a.text-yellow:focus {
 .li.complete .status h4 {
   color: #66DC71;
 }
+.closeBtn {
+  width: 30px;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in;
+}
+.closeBtn:hover {
+  width: 35px;
+}

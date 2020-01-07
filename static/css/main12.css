@@ -370,7 +370,7 @@ html {
 }
 .secondary-popup {
   position: absolute;
-  bottom: 8%;
+  bottom: 5%;
   left: 50%;
 } 
 .text-yellow {
@@ -404,11 +404,21 @@ html {
   background-position: center;
 }
 
+.ruleContainer {
+  left: 0;
+  bottom: 0;
+}
 @media (max-width: 991.98px) { 
   .topbar {
     height: 40px;
   }
   
+  .ruleContainer {
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 350px;
+  }
   .bw-bg {
     background-size: cover;
   }

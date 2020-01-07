@@ -124,7 +124,7 @@
                     <p class="m-0 stretch" style="position: absolute; left: 50%; transform: translateX(-50%); top: 0; color: white">Nirvana Night</p>
                 </div>
                 <div class="bg-popsecondary text-white p-2 p-lg-3">
-                    <p class="m-0 text-left stretch px-1">You've seen Prateek Kuhad, Hardy, Gajendra and TLT at Odyssey. <b>Sway to the tunes of Jubin Nautiyal this Odyssey!</b></p>
+                    <p class="m-0 text-left stretch px-1">With songs that pull at our heart strings, melody that resonates within us and  voice that makes us swoon, we present <b>Jubin Nautiyal</b>, as our Nirvana Star!</p>
                 </div>
             </div>
             <div class="popup top-popup px-2 pb-2 faster no-show d-none" style="z-index: 6">
@@ -166,10 +166,19 @@
 </div>
 
 
-<div style="position: fixed; top: 0; left: 0; z-index: 999; width: 100vw; height: 100vh; background: rgba(35, 40, 44, 0.839)" class="d-flex align-items-center justify-content-center d-none no-show faster" id="starContainer">
+<div style="position: fixed; top: 0; left: 0; z-index: 999; width: 100vw; height: 100vh; background: rgba(22, 25, 27, 0.839)" class="d-flex align-items-center justify-content-center d-none no-show faster" id="starContainer">
     <div style="position: relative" class="no-show faster" id="starImageBox">
         <img src="/static/img/star.png" style="max-height: 80vh; max-width: 90vw;" class="img-fluid" alt="">
         <p class="text-white stretch btn" onclick="closeStar()" style="position: absolute; top: 0; right: 0; transform: translateX(50%) translateY(-50%)"><img src="/static/img/error.svg" class="closeBtn" alt="CLOSE"></p>
+    </div>
+    <div style="position: absolute;" class="text-white bg-dark py-3 px-4 p-lg-5 rounded ruleContainer no-show faster">
+        <p class="mb-2 h5 font-weight-bold">Register <a href="https://bit.ly/NirvanaNight" class="text-white underline">here</a> to attend the night!</p>
+        <p class="mb-1"><b>Entry is free</b>, all you need to do is: </p>
+        <ul class="m-0 p-0 small">
+            <li>Bring a Valid College/organisation ID</li>
+            <li>Register at link above</li>
+            <li>Follow us at <a href="https://www.instagram.com/iiitdodyssey/" target="_blank" class="underline text-white">instagram</a> and like us on <a href="https://www.facebook.com/odyssey.iiitd/" target="_blank" class="text-white underline">facebook</a></li>
+        </ul>
     </div>
 </div>
 
@@ -319,7 +328,9 @@
                     $('.recreateContainer').css('animation-iteration-count', '4')
                     
                     animateCSS('#starContainer', 'fadeIn', function() {
-                        animateCSS('#starImageBox', 'bounceIn');
+                        animateCSS('#starImageBox', 'bounceIn', function() {
+                            animateCSS(".ruleContainer", 'slideInUp');
+                        });
                         takeToTab(window.location.hash);
                     });
                     
@@ -341,7 +352,10 @@
                         $('.recreateContainer').css('animation', 'glitchVap 0.3s linear')
                         $('.recreateContainer').css('animation-iteration-count', '4')
                         animateCSS('#starContainer', 'fadeIn', function() {
-                            animateCSS('#starImageBox', 'bounceIn');
+                            
+                            animateCSS('#starImageBox', 'bounceIn', function() {
+                                animateCSS(".ruleContainer", 'slideInUp');
+                            });
                             takeToTab(window.location.hash);
                         });
                     });

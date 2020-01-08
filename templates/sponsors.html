@@ -4,23 +4,178 @@
 
     <style>
         body {
-            background: white
+            background: linear-gradient(90deg, #000000 30px, transparent 1%) center, linear-gradient(#000000 30px, transparent 1%) center, #F7B22C;
+            background-size: 31px 31px;
+            color: white;
+        }
+        h1, h2 {
+            color: #F7B22C;
+            padding-top: 2rem;
+        }
+        nav {
+            background: transparent !important;
+            transition-duration: 0.3s;
+        }
+        .footer {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
         }
     </style>
 
     {% include "nav.html" %}
 
-    <div class="container light pt-5">
-        <h1 class="pt-5 mb-0 light stretch text-center font-weight-bold faster" style="color: black">Our Sponsors</h1>
-        <br>
-        <br><br>
-        <br><br>
-        <br>
-        <h1 class="pb-3 mb-0 bold display-3 text-center font-weight-bold faster" style="color: black">Coming Soon!</h1>
-        <br>
-        <br><br>
-        <br><br>
-        <br>
+    <div class="container light pt-5 mb-5">
+        <h1 class="pt-5 mb-0 light stretch text-center font-weight-bold faster">SPONSORS</h1>
+        <div class="row mt-0 justify-content-center">
+            <div class="col-12 col-md-4">
+                <h2 class="pt-4 mb-1 bold stretch text-center font-weight-bold">Powered By</h2>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="/static/sponImg/GAIL.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-0 justify-content-center">
+            <div class="col-12 col-md-4">
+                <h2 class="pt-5 mb-1 bold stretch text-center font-weight-bold" >In Asssociation With</h2>
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="/static/sponImg/IndianOilLogo800x600.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-0 justify-content-center">
+            <div class="col-12 col-md-4">
+                <h2 class="pt-5 mb-1 bold stretch text-center font-weight-bold" >engineering Partner</h2>
+                <div class="d-flex align-items-center justify-content-center px-5">
+                    <img src="/static/sponImg/eil.png" class="img-fluid" alt="">    
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+            <div class="col-12">
+                <h2 class="pt-5 mb-3 bold stretch text-center font-weight-bold" >Partners</h2>
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/aceAcademy.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/action.png" class="img-fluid" alt="">    
+            </div>
+            <!-- <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/amway.png" class="img-fluid" alt="">    
+            </div> -->
+            <!-- <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/Architectons.JPG" class="img-fluid" alt="">    
+            </div> -->
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/atkt.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/bannaspraypaint.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/BlueRose.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/bonjour.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/cocacola.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/coolwinks.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/fyreenergy.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/gatsby.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/hanu.jpeg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/iipacademy.png" class="img-fluid" alt="">    
+            </div>
+            <!-- <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/ImmortalGaming.png" class="img-fluid" alt="">    
+            </div> -->
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                    <img src="/static/sponImg/indiantaleways.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/instafeed.jpeg" class="img-fluid" alt="">    
+            </div>
+            <!-- <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/JaipurFilmFestival.png" class="img-fluid" alt="">    
+            </div> -->
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/jamboree.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/lg.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/LIC.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/Manforce.jpeg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/maplepress.png" class="img-fluid" alt="">    
+            </div>
+            <!-- <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/miltexequipments.png" class="img-fluid" alt="">    
+            </div> -->
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/NESC_BrandLogoBlackColour1_RGB.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/pfc.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/pocketdecor.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/smmusicrecords.jpeg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/srishtipublishers.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/t32.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/tinder.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/weekendtheatreandfilms.jpeg" class="img-fluid" alt="">    
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h2 class="pt-5 mb-3 bold stretch text-center font-weight-bold" >Stall Partners</h2>
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/TheGrubCompany.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/lapinoz.jpg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/lagloriam.jpeg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/lickSipDip.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/zorambo.png" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/ruletherolls.jpeg" class="img-fluid" alt="">    
+            </div>
+            <div class="col-12 col-md-3 mb-5 d-flex align-items-center justify-content-center">
+                <img src="/static/sponImg/cupofjoe.jpeg" class="img-fluid" alt="">    
+            </div>
+        </div>
     </div>
 
     {% include "footer.html" %}
@@ -35,5 +190,15 @@
 
         })
     }
+    
+    $(window).on('resize scroll', function() {
+        var viewportTop = $(window).scrollTop();
+        if(viewportTop < 5) {
+            $("nav").attr("style", "background: transparent !important");
+        }
+        else {
+            $("nav").attr("style", "background: black !important");
+        }
+    })
 </script>
 {% endblock %}

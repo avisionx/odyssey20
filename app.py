@@ -32,7 +32,7 @@ def policy():
 
 @app.route("/sponsors/")
 def sponsors():
-    return render_template('sponsorsunder.html')
+    return render_template('sponsors.html')
 
 @app.route("/team/")
 def team():

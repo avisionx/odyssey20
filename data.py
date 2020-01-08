@@ -387,13 +387,13 @@ fun = [{
         'venue': "Seminar Hall",
         'prize': "Double what you invest in a minute!",
         'team': "Group/Solo",
-        'description': "'Minute is the jury of fast and fury'<br>Wanna enjoy your heart out? Wanna win exciting prizes and rewards?<br>Get ready to quench your thirst for enjoyment and display your raging energy and enthusiasm as "MINUTE TO WIN IT" is back with new and ultimate fun-filled challenges, for the title of “The Minute Winner”<br>The on spot event has registration fee of just 20 rupees,  So what are you waiting for? This January, get out of your homes and have a little fun, and you might even win some exciting goodies. <br> Feel free to contact :<br> 1) Tanmay <br> Contact : +91 98686 28977<br>Email: tanmay18271@iiitd.ac.in<br>2) Prashansa Tanwar<br>Contact : +91 85277 14004<br>Email : prashansa18171@iiitd.ac.in<br>3) Rishi Raj Jain<br>Contact : +91 9811788791<br>Email : rishi18304@iiitd.ac.in",
+        'description': "'Minute is the jury of fast and fury'<br>Wanna enjoy your heart out? Wanna win exciting prizes and rewards?<br>Get ready to quench your thirst for enjoyment and display your raging energy and enthusiasm as 'MINUTE TO WIN IT' is back with new and ultimate fun-filled challenges, for the title of “The Minute Winner”<br>The on spot event has registration fee of just 20 rupees,  So what are you waiting for? This January, get out of your homes and have a little fun, and you might even win some exciting goodies. <br> Feel free to contact :<br> 1) Tanmay <br> Contact : +91 98686 28977<br>Email: tanmay18271@iiitd.ac.in<br>2) Prashansa Tanwar<br>Contact : +91 85277 14004<br>Email : prashansa18171@iiitd.ac.in<br>3) Rishi Raj Jain<br>Contact : +91 9811788791<br>Email : rishi18304@iiitd.ac.in",
         'rules': [
             "The event is open to all with individual or pair participation.",
             "Participants will face elimination through subsequent rounds leading to the final level. The rules and regulations regarding the individual rounds will be explained before the round.",
             "The right to eliminate, in case of any violation of rules and regulation, remain with the organizers.",
             "The decision of the organizers will be final and binding, no communication in this regard shall be entertained by the organizers."
-        ]
+        ],
         'regLink': "https://www.facebook.com/events/432371520815294/ ",
     }, {
         'id': 2,

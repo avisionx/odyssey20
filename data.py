@@ -381,13 +381,19 @@ dance = [{
 fun = [{
         'id': 1,
         'img': '/eventImg/mtwi_psd.jpg',
-        'name': "",
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
-        'prize': "TBA",
-        'team': "TBA",
-        'description': "Your description para",
+        'name': "Minute To Win It",
+        'date': "17 & 18th Jan",
+        'time': "10 AM - 4 PM",
+        'venue': "Seminar Hall",
+        'prize': "Double what you invest in a minute!",
+        'team': "Group/Solo",
+        'description': "'Minute is the jury of fast and fury'<br>Wanna enjoy your heart out? Wanna win exciting prizes and rewards?<br>Get ready to quench your thirst for enjoyment and display your raging energy and enthusiasm as "MINUTE TO WIN IT" is back with new and ultimate fun-filled challenges, for the title of “The Minute Winner”<br>The on spot event has registration fee of just 20 rupees,  So what are you waiting for? This January, get out of your homes and have a little fun, and you might even win some exciting goodies. <br> Feel free to contact :<br> 1) Tanmay <br> Contact : +91 98686 28977<br>Email: tanmay18271@iiitd.ac.in<br>2) Prashansa Tanwar<br>Contact : +91 85277 14004<br>Email : prashansa18171@iiitd.ac.in<br>3) Rishi Raj Jain<br>Contact : +91 9811788791<br>Email : rishi18304@iiitd.ac.in",
+        'rules': [
+            "The event is open to all with individual or pair participation.",
+            "Participants will face elimination through subsequent rounds leading to the final level. The rules and regulations regarding the individual rounds will be explained before the round.",
+            "The right to eliminate, in case of any violation of rules and regulation, remain with the organizers.",
+            "The decision of the organizers will be final and binding, no communication in this regard shall be entertained by the organizers."
+        ]
         'regLink': "https://www.facebook.com/events/432371520815294/ ",
     }, {
         'id': 2,
@@ -697,7 +703,7 @@ music = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'description': "“Without ambition, one starts nothing. Without work, one finishes nothing. <br>The prize will not be sent to you. <br>You have to win it.” Your vocals are the face of your talent. Participants trained in the vocal aspects of Indian style are invited to compete. <br>Showcase your talent and win exciting prizes. <br><br> Online Portal Round <br> ● Submit a 2-3 min piece of music on the online portal we’ll share. <br> ● Background music permitted. <br> ● The submitted piece should have clear voice, and the participant shouldn’t autotune the piece or record it in someone else’s voice. This would lead to immediate disqualification. <br><br> Judging Criteria: <br> ● Preparedness <br>● Fundamentals (Pitch, Tone, Rhythm, tempo) <br> ● Voice quality (tonality, appropriateness to the genre, &amp; technique, breath control) <br> The participants chosen in this round would be permitted to present their talent in the next upcoming rounds at IIITD Campus.<br><br> Prabhav (Finale) <br>Choose a song of any genre. Incorporate some changes to make the song your own, at the same time preserve the original beauty of the song. <br> Single hand instrument or background karaoke music is allowed. (Karaoke file should be shared with us via email, 1 day prior to the day of the event) <br> Prabhav <br> Choose a song of any genre. Incorporate some changes to make the song your own, at the same time preserve the original beauty of the song. <br> Single hand instrument or background karaoke music is allowed. (Karaoke file should be shared with us via email, 1 day prior to the day of the event) <br> Time Limit: 4-8 minutes <br><br> Judging criteria: <br> ●	Song selection <br> ●	Preparedness <br> ●	Fundamentals (Pitch, Tone, Rhythm, tempo) <br> ●	Voice quality (tonality, appropriateness to the genre, & technique, breath control) <br> ●	Communication(Interpretation, diction) <br> ●	Creative originality <br> ●	Stage presence",
+        'description': "“Without ambition, one starts nothing. Without work, one finishes nothing. <br>The prize will not be sent to you. <br>You have to win it.” Your vocals are the face of your talent. Participants trained in the vocal aspects of Indian style are invited to compete. <br>Showcase your talent and win exciting prizes. <br><br> Online Portal Round <br> ● Submit a 2-3 min piece of music on the online portal we’ll share. <br> ● Background music permitted. <br> ● The submitted piece should have clear voice, and the participant shouldn’t autotune the piece or record it in someone else’s voice. This would lead to immediate disqualification. <br><br> Judging Criteria: <br> ● Preparedness <br>● Fundamentals (Pitch, Tone, Rhythm, tempo) <br> ● Voice quality (tonality, appropriateness to the genre, &amp; technique, breath control) <br> The participants chosen in this round would be permitted to present their talent in the next upcoming rounds at IIITD Campus.<br><br> Prabhav (Finale) <br>Choose a song of any genre. Incorporate some changes to make the song your own, at the same time preserve the original beauty of the song. <br> Single hand instrument or background karaoke music is allowed. (Karaoke file should be shared with us via email, 1 day prior to the day of the event) <br> Prabhav <br> Choose a song of any genre. Incorporate some changes to make the song your own, at the same time preserve the original beauty of the song. <br> Single hand instrument or background karaoke music is allowed. (Karaoke file should be shared with us via email, 1 day prior to the day of the event) <br> Time Limit: 4-8 minutes <br><br> Judging criteria: <br> ●   Song selection <br> ●   Preparedness <br> ● Fundamentals (Pitch, Tone, Rhythm, tempo) <br> ●    Voice quality (tonality, appropriateness to the genre, & technique, breath control) <br> ●  Communication(Interpretation, diction) <br> ●   Creative originality <br> ● Stage presence",
         'rules': [
             "➔ Team Size: 1",
             "➔ Age group: 16-22",

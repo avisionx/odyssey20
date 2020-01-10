@@ -75,22 +75,24 @@ literary = [{
             "Rule 2"
         ],
         'regLink': "http://bit.ly/Turnquote",
-    }, {
-        'id': 3,
-        'img': '/eventImg/Punchline-01.jpg',
-        'name': "",
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
-        'prize': "TBA",
-        'team': "number_here",
-        'description': "Your description para",
-        'rules': [
-            "Rule 1", 
-            "Rule 2"
-        ],
-        'regLink': "bit.ly/PunchlineOdyssey",
-    }, {
+    }, 
+    # {
+    #     'id': 3,
+    #     'img': '/eventImg/Punchline-01.jpg',
+    #     'name': "",
+    #     'date': "TBA",
+    #     'time': "TBA",
+    #     'venue': "TBA",
+    #     'prize': "TBA",
+    #     'team': "number_here",
+    #     'description': "Your description para",
+    #     'rules': [
+    #         "Rule 1", 
+    #         "Rule 2"
+    #     ],
+    #     'regLink': "bit.ly/PunchlineOdyssey",
+    # }, 
+    {
         'id': 4,
         'img': '/eventImg/unmute fb-cover.jpg',
         'name': "",

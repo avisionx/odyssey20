@@ -625,6 +625,20 @@ lifestyle = [{
             "Be nice, Be respectful."
         ],
         'regLink': "https://bit.ly/34tpwTA",
+    }, {
+        'id': 3,
+        'img': '/eventImg/campusprincess2.jpg',
+        'name': "Campus Princess",
+        'date': "TBA",
+        'time': "TBA",
+        'venue': "TBA",
+        'prize': "TBA",
+        'team': "TBA",
+        'description': "This event would be a standard pageant. It is a platform for participants to show their personality and confidence, topping it with some.",
+        'rules': [
+            "TBA",
+        ],
+        'regLink': "https://bit.ly/campusprincess2020",
     }, 
 ]
 music = [{

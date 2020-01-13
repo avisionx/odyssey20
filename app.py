@@ -34,6 +34,10 @@ def policy():
 def sponsors():
     return render_template('sponsors.html')
 
+@app.route("/schedule/")
+def schedule():
+    return render_template('schedule.html')
+
 @app.route("/team/")
 def team():
     return render_template('team.html', team=teamJson, leads=leadJson)

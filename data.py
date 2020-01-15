@@ -634,7 +634,7 @@ lifestyle = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "Individual",
-        'description': "EVENT DESCRIPTION AND STRUCTURE : <br> Every participant would be required to submit a solo video entry for the preliminary round. <br> Top 20 participants would be selected for first round based on the online preliminary round, and get to perform at Odyssey ‘20. <br> Out of which, the judges select 9 participants for the battle round in which 3 battles will take place with 3 participants in each group. <br> The shortlisted participants will perform on given songs. <br> 1 participant from each group will be selected for the final battle round. <br> Eligibility Criteria Participants must be college or school students. <br> Age limit : 16-25 years  Number of participants Expecting 50+ video entries 20 participants to perform at Odyssey   Duration 20 performances approximately 1.5 hours Semi final round approximately 45 minutes Final round approximately 20 minutes Total 3 hours <br> ",
+        'description': "Campus Princess, a talent discovery platform of the Times group scouts prospective profiles for Femina Miss India & Miss Diva Universe Pageant by engaging with student communities at a pan India level. This event aims to empower young talent by enabling them to realize their dream of venturing into the global fashion and lifestyle space.",
         'rules': [
             "Styles: Western styles like Hip-Hop, Bboying, Jazz, Contemporary etc.",
             "Mixing of different styles is allowed. ",

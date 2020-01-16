@@ -80,7 +80,21 @@ html {
   transition: all 0.3s ease-in-out 0s;
   color: white;  
 }
+.calHolder {
+  position: fixed; 
+  bottom: 30px; 
+  cursor: pointer; 
+  z-index: 10; 
+  right: 20px; 
+  background: #F7B22C; 
+  border-radius: 100%;
+}
 @media (max-width: 991.98px) { 
+  .calHolder {
+    bottom: 15px; 
+    right: 10px; 
+  
+  }
   .side-nav {
     width: 100vw;
     transition-duration: 150ms;
@@ -403,7 +417,13 @@ html {
   background-size: contain;
   background-position: center;
 }
-
+.calLogo {
+  width: 20px;
+  transition-duration: 200ms;
+}
+.calLogo:hover {
+  width: 25px;
+}
 .ruleContainer {
   left: 0;
   bottom: 0;
@@ -411,6 +431,12 @@ html {
 @media (max-width: 991.98px) { 
   .topbar {
     height: 40px;
+  }
+  .calLogo {
+    width: 17px;
+  }
+  .calLogo:hover {
+    width: 20px;
   }
   
   .ruleContainer {

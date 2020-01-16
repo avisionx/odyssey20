@@ -12,6 +12,9 @@
                 <div class="w-100 p-1 mr-2 my-0 mb-1"><a href="https://www.instagram.com/iiitdodyssey/" target="_blank" class="no-decoration small text-white"><img src="/static/img/IG.png" class="ml-2" width="50px" alt=""></a></div>
             </div>
             <a href="/#home" style="z-index: 999"><img src="/static/images/logo2.png" class="img-fluid homelogo no-show faster"></a>
+            <div class="calHolder no-show faster" style="padding: .8rem">
+                <a href="/schedule"><img src="/static/img/calendar.svg" width="" class="calLogo"  alt=""></a>
+            </div>
             <img src="/static/images/retro.png" class="retrotitle no-show fast" alt="">
             <div class="recreateContainer no-show fast">
                 <img src="/static/images/recreate.png" class="img-fluid recreate" alt="">
@@ -315,6 +318,7 @@
 
         if(mobileUI) {
             animateCSS('.homelogo', 'fadeInLeft');
+            animateCSS('.calHolder', 'fadeInUp');
             animateCSS('.navbar', 'fadeInRight')
             animateCSS('.gutter12m', 'fadeInUp', function() {
                 $('.hometitle').removeClass("no-show");
@@ -338,6 +342,7 @@
             })
         }else{
             animateCSS('.homelogo', 'fadeInRight')
+            animateCSS('.calHolder', 'fadeInRight');
             animateCSS('nav', 'fadeInRightBig', function() {
                 animateCSS('.gutter12', 'fadeInUp', function() {
                     animateCSS('.hometitle', 'fadeInUp');

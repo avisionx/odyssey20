@@ -38,9 +38,9 @@ def sponsors():
 def schedule():
     return render_template('schedule.html')
 
-# @app.route("/team/")
-# def team():
-#     return render_template('team.html', team=teamJson, leads=leadJson)
+@app.route("/team/")
+def team():
+    return render_template('team.html', team=teamJson, leads=leadJson)
 
 @app.errorhandler(404)
 def page_not_found(e):
